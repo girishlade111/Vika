@@ -2,8 +2,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getQuestionsForContext } from '@/data/cmsRelations';
 
+import type { Question } from '@/data/types';
+
 interface FAQSectionProps {
-  context: 'home' | 'services' | 'pricing';
+  context?: 'home' | 'services' | 'pricing';
+  questions?: Question[];
   sectionLabel?: string;
   headingPrimary?: string;
   headingMuted?: string;
@@ -14,7 +17,8 @@ interface FAQSectionProps {
 }
 
 export function FAQSection({
-  context,
+  context = 'services',
+  questions: customQuestions,
   sectionLabel = '(09) Questions',
   headingPrimary = 'Good questions.',
   headingMuted = 'Straight answers.',
@@ -23,7 +27,7 @@ export function FAQSection({
   ctaLabel = 'Ask us directly',
   sectionClassName = 'section-home-questions',
 }: FAQSectionProps) {
-  const items = getQuestionsForContext(context);
+  const items = customQuestions ?? getQuestionsForContext(context);
   const [openId, setOpenId] = useState<string | null>(items[0]?.id ?? null);
 
   return (
