@@ -1,0 +1,683 @@
+{
+  "title": "Studio | Vika people and offices, Cinematic",
+  "sectionCount": 7,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-studio-cinematic-hero",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "cinematic-hero_meta-start text-style-label",
+          "text": "(03) Studio"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-hero_meta-center text-style-label",
+          "text": "Dubai and London"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-hero_meta-end text-style-label",
+          "text": "Since 2016"
+        },
+        {
+          "tag": "h1",
+          "cls": "cinematic-hero_heading",
+          "text": "26 people, two offices, one rule."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "one rule."
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-hero_lede text-size-large",
+          "text": "Close every client’s month by the tenth working day. Everything else at Vika follows from that."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-studio-cinematic-media",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "cinematic-media_label text-style-label",
+          "text": "Monthly review, Business Bay"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-media_title",
+          "text": "Every client, every month, read by a partner before it leaves the studio."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad74e5a41d4039b1f3cd5b2_vika-team-session.webp",
+          "alt": "Four accountants reviewing printed reports around an oak table",
+          "cls": "cinematic-media_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "className": "section-studio-cinematic-story",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "home-studio_label text-style-label",
+          "text": "(01) Our story"
+        },
+        {
+          "tag": "h2",
+          "cls": "home-studio_statement",
+          "text": "Vika opened in 2016 with four clients and a shared office in Dubai. Ten years later we keep the books, run the calendar and sign the audits for 340 companies, and the rule has not changed: numbers are only useful while they are recent."
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word1",
+          "text": "Vika"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word2",
+          "text": "opened"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word3",
+          "text": "in"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word4",
+          "text": "2016"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word5",
+          "text": "with"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word6",
+          "text": "four"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word7",
+          "text": "clients"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word8",
+          "text": "and"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word9",
+          "text": "a"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word10",
+          "text": "shared"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word11",
+          "text": "office"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word12",
+          "text": "in"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word13",
+          "text": "Dubai."
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word14",
+          "text": "Ten"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word15",
+          "text": "years"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word16",
+          "text": "later"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word17",
+          "text": "we"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word18",
+          "text": "keep"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word19",
+          "text": "the"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word20",
+          "text": "books,"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word21",
+          "text": "run"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word22",
+          "text": "the"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word23",
+          "text": "calendar"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word24",
+          "text": "and"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word25",
+          "text": "sign"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word26",
+          "text": "the"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word27",
+          "text": "audits"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word28",
+          "text": "for"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word29",
+          "text": "340"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word30",
+          "text": "companies,"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word31",
+          "text": "and"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word32",
+          "text": "the"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word33",
+          "text": "rule"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word34",
+          "text": "has"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word35",
+          "text": "not"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word36",
+          "text": "changed:"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word37",
+          "text": "numbers"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word38",
+          "text": "are"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word39",
+          "text": "only"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word40",
+          "text": "useful"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word41",
+          "text": "while"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word42",
+          "text": "they"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word43",
+          "text": "are"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_word gsap_split_word44",
+          "text": "recent."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "className": "section-studio-cinematic-record",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "(02) The record"
+        },
+        {
+          "tag": "h2",
+          "cls": "heading-style-h2",
+          "text": "Ten years, five moments."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "five moments."
+        },
+        {
+          "tag": "p",
+          "cls": "gallery_hint text-style-label",
+          "text": "Scroll sideways"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_year",
+          "text": "2016"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_count text-style-label",
+          "text": "4 clients"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_text",
+          "text": "Sara opens Vika in a shared office in Dubai, with four clients and one rule: close by the tenth."
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_year",
+          "text": "2019"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_count text-style-label",
+          "text": "60 clients"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_text",
+          "text": "The London office opens to look after the UK companies of our Gulf clients."
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_year",
+          "text": "2023"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_count text-style-label",
+          "text": "210 clients"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_text",
+          "text": "Corporate tax arrives in the UAE. Rami joins to build the tax practice."
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_year",
+          "text": "2024"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_count text-style-label",
+          "text": "270 clients"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_text",
+          "text": "The audit practice opens as a separate team, led by Hannah from London."
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_year",
+          "text": "2026"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_count text-style-label",
+          "text": "340 clients"
+        },
+        {
+          "tag": "p",
+          "cls": "record-gallery_text",
+          "text": "340 companies, 26 people, two offices and the same rule as day one."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "className": "section-studio-cinematic-team",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(03) The team"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "The people on your file."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "on your file."
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Sara Lindqvist"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Managing Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "ACA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "Dubai"
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Rami Nassar"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Tax Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "CTA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "Dubai"
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Hannah Okoye"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Audit Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "FCCA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "London"
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Leo Brandt"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Head of Accounting"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "ACMA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "London"
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Maya Iyer"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Senior Manager, Tax"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "ACA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "Dubai"
+        },
+        {
+          "tag": "h3",
+          "cls": "team-rows_name",
+          "text": "Tomas Reyes"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_role text-size-regular",
+          "text": "Senior Manager, Audit"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_credential text-style-label",
+          "text": "ACCA"
+        },
+        {
+          "tag": "p",
+          "cls": "team-rows_office text-style-label",
+          "text": "Dubai"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "className": "section-studio-cinematic-offices",
+      "id": "offices",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(04) Offices"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Two offices, one calendar."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "one calendar."
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-media_label text-style-label",
+          "text": "Since 2016"
+        },
+        {
+          "tag": "h3",
+          "cls": "office-panels_city",
+          "text": "Dubai"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-media_label text-style-label",
+          "text": "Mon to Fri, 8:30 to 18:00"
+        },
+        {
+          "tag": "p",
+          "cls": "office-panels_address",
+          "text": "Level 12, Vika House, Business Bay · +971 4 000 0000"
+        },
+        {
+          "tag": "a",
+          "cls": "office-panels_link",
+          "href": "tel:+97140000000",
+          "text": "+971 4 000 0000"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-media_label text-style-label",
+          "text": "Since 2019"
+        },
+        {
+          "tag": "h3",
+          "cls": "office-panels_city",
+          "text": "London"
+        },
+        {
+          "tag": "p",
+          "cls": "cinematic-media_label text-style-label",
+          "text": "Mon to Fri, 9:00 to 17:30"
+        },
+        {
+          "tag": "p",
+          "cls": "office-panels_address",
+          "text": "14 Vika Yard, London EC1 · +44 20 7946 0142"
+        },
+        {
+          "tag": "a",
+          "cls": "office-panels_link",
+          "href": "tel:+442079460142",
+          "text": "+44 20 7946 0142"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad74e5e105689040c7bbf22_vika-dubai-office.webp",
+          "alt": "Low rise stone office building with a burgundy entrance canopy at golden hour",
+          "cls": "cinematic-media_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad74e66105689040c7bc939_vika-london-reception.webp",
+          "alt": "Calm reception with a burgundy sofa and black steel shelving of archive boxes",
+          "cls": "cinematic-media_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 7,
+      "className": "section-studio-cinematic-careers",
+      "id": "",
+      "texts": [
+        {
+          "tag": "h2",
+          "cls": "careers-band_heading heading-style-h2",
+          "text": "We hire twice a year. Trainees welcome."
+        },
+        {
+          "tag": "span",
+          "cls": "careers-band_muted",
+          "text": "Trainees welcome."
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "mailto:careers@vika.example",
+          "text": "Write to uswe reply today"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}

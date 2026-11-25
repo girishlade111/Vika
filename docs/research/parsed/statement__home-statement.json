@@ -1,0 +1,1343 @@
+{
+  "title": "Vika | Accounting and tax studio, Statement layout",
+  "sectionCount": 9,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-home-statement-hero",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "statement-hero_meta-start text-style-label",
+          "text": "(Index) Accounting · Tax · Audit"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_meta-center text-style-label",
+          "text": "Dubai and London · Monday to Friday"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_meta-end text-style-label",
+          "text": "Since 2016"
+        },
+        {
+          "tag": "h1",
+          "cls": "statement-hero_heading",
+          "text": "Your next deadline is already on our calendar."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "Your next deadline"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_what-name",
+          "text": "VAT return for the quarter to 30 September 2026"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "October 28, 2026"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_lede text-size-large",
+          "text": "Vika keeps the calendar, the books and the audits for 340 companies in the UAE and the UK, so a date like this is never news."
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "/contact",
+          "text": "Book a callwith a partner"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "#fees",
+          "text": "See our fees"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_next-date",
+          "text": "November 7, 2026"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "VAT return for the quarter to 30 September 2026"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_next-date",
+          "text": "January 28, 2027"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "VAT return for the quarter to 31 December 2026"
+        },
+        {
+          "tag": "p",
+          "cls": "statement-hero_next-date",
+          "text": "April 28, 2027"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "VAT return for the quarter to 31 March 2027"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-home-statement-practices",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(01) Practices"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Three practices, opened one at a time."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "opened one at a time."
+        },
+        {
+          "tag": "a",
+          "cls": "practices_row is-summary w-inline-block",
+          "href": "#",
+          "text": "01AccountingMonthly books, closed by the tenth.FromAED 2,500a month+"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_number text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "h3",
+          "cls": "practices_name",
+          "text": "Accounting"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_short text-size-medium",
+          "text": "Monthly books, closed by the tenth."
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "From"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "AED 2,500"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "a month"
+        },
+        {
+          "tag": "span",
+          "cls": "practices_icon is-plus",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-large",
+          "text": "We run your bookkeeping, payroll and management accounts every month and close the books by the tenth working day. You get one set of numbers that your board, your bank and your investors can all use."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Bookkeeping in Xero, QuickBooks or Zoho Books"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Bank and card reconciliations every week"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Payroll, with WPS files for UAE teams"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Management accounts by the tenth working day"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A cash flow forecast, rolled forward monthly"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A named accountant who knows your business"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "/services/accounting",
+          "text": "Explore the practicesee the work"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Led by"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-weight-medium",
+          "text": "Leo Brandt"
+        },
+        {
+          "tag": "a",
+          "cls": "practices_row is-summary w-inline-block",
+          "href": "#",
+          "text": "02TaxVAT and corporate tax, filed early.FromAED 1,500a quarter+"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_number text-style-label",
+          "text": "02"
+        },
+        {
+          "tag": "h3",
+          "cls": "practices_name",
+          "text": "Tax"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_short text-size-medium",
+          "text": "VAT and corporate tax, filed early."
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "From"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "AED 1,500"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "a quarter"
+        },
+        {
+          "tag": "span",
+          "cls": "practices_icon is-plus",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-large",
+          "text": "We register you, keep the tax calendar and file every VAT and corporate tax return before it falls due, in the UAE and the UK. Nothing is filed until you have read it and approved it."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "VAT and corporate tax registration"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Quarterly VAT returns in the UAE and the UK"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "The annual corporate tax return and computation"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Transfer pricing disclosures where they apply"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Small Business Relief checks for eligible companies"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Letters and reviews from the tax authority, handled"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "/services/tax",
+          "text": "Explore the practicesee the work"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Led by"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-weight-medium",
+          "text": "Rami Nassar"
+        },
+        {
+          "tag": "a",
+          "cls": "practices_row is-summary w-inline-block",
+          "href": "#",
+          "text": "03AuditStatutory audits, without the scramble.FromAED 18,000an audit+"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_number text-style-label",
+          "text": "03"
+        },
+        {
+          "tag": "h3",
+          "cls": "practices_name",
+          "text": "Audit"
+        },
+        {
+          "tag": "p",
+          "cls": "practices_short text-size-medium",
+          "text": "Statutory audits, without the scramble."
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "From"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "AED 18,000"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "an audit"
+        },
+        {
+          "tag": "span",
+          "cls": "practices_icon is-plus",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-large",
+          "text": "Our audit team signs statutory audits for free zone and mainland companies in the UAE, and for UK companies that need one. We plan in the first month of your year, so year end is a review, not a rescue."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Statutory audit of annual financial statements"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Audits for free zone licence renewals"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Reporting packs for overseas parent companies"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Agreed procedures and special purpose reports"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A management letter you can act on"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Run as a separate team from our accounting practice"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "/services/audit",
+          "text": "Explore the practicesee the work"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Led by"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-weight-medium",
+          "text": "Hannah Okoye"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed5edaf003b60748840_hf_20261020_105325_0483af75-2c2d-4e59-9397-52b32d039067_min.webp",
+          "alt": "Accounting",
+          "cls": "statement-practices_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed5edaf003b6074883d_hf_20261020_105322_265f1e53-8b4b-49f1-a360-e902c82bfb9b_min.webp",
+          "alt": "Tax",
+          "cls": "statement-practices_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed5edaf003b60748843_hf_20261020_105323_00b2eef3-ab54-41a5-bf8e-71007ed59093_min.webp",
+          "alt": "Audit",
+          "cls": "statement-practices_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "className": "section-home-statement-ledger",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(02) The statement"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Ten years, in figures."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "in figures."
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "Companies on our books"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "340"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "Returns filed last year"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "2,100"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "People in Dubai and London"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "26"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "Working days to a closed month"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "10"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "Practices"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "3"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "Offices"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_value",
+          "text": "2"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_name",
+          "text": "The rule since 2016"
+        },
+        {
+          "tag": "p",
+          "cls": "ledger_total-value",
+          "text": "Closed by the tenth"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "className": "section-home-statement-fees",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(03) Fees"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Fixed fees, in one table."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "in one table."
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Essential"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "For one company with fewer than 150 transactions a month."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Bookkeeping and bank reconciliations"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Quarterly VAT returns"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "The annual corporate tax return"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Management accounts each quarter"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Email support from your accountant"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 2,500"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Growth"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "For growing companies with a payroll, investors and a board."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Everything in Essential"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Monthly management accounts by the tenth"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Payroll and WPS for up to 40 people"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A cash flow forecast every month"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A quarterly review with a partner"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 6,000"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Group"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "For groups with several companies across the UAE and the UK."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Everything in Growth"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Up to five companies, consolidated"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "VAT groups and transfer pricing support"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A board pack every month"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A partner at your board meetings"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 12,000"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Tax registration"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "VAT and corporate tax registration, done within a week."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Registration checks across your companies"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Registration and your first tax calendar"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A Small Business Relief assessment"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 3,000"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Statutory audit"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "For free zone and mainland companies in the UAE."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A planning meeting in month one"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Two to three weeks of fieldwork"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A signed report within eight weeks of year end"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 18,000"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_name",
+          "text": "Due diligence"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "Financial due diligence for buyers and investors, before they sign."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Quality of earnings and net debt"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Working capital and tax exposure review"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A written report in three to four weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_amount",
+          "text": "AED 25,000"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/contact",
+          "text": "Choose this plan"
+        },
+        {
+          "tag": "p",
+          "cls": "fee-table_note text-size-small text-color-secondary",
+          "text": "Fees exclude VAT. Monthly fees are reviewed with you once a year, never in the middle of a contract. London clients are quoted in pounds."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "className": "section-home-statement-quote",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(04) Clients"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "In their words, not ours."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "not ours."
+        },
+        {
+          "tag": "span",
+          "cls": "text-weight-medium",
+          "text": "James Whitlock"
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-secondary",
+          "text": "Finance Director, Nordhaus"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "className": "section-home-statement-cases",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(05) Case studies"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "The work, by the numbers."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "by the numbers."
+        },
+        {
+          "tag": "a",
+          "cls": "case-ledger_row is-board w-inline-block",
+          "href": "/case-studies/trading-group-monthly-close",
+          "text": "9 daysMonth end close, down from 24A trading group that now closes by the ninthTrading and distributionUAE→"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_metric is-board",
+          "text": "9 days"
+        },
+        {
+          "tag": "p",
+          "cls": "case-board_label text-style-label",
+          "text": "Month end close, down from 24"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-ledger_title heading-style-h3 is-board",
+          "text": "A trading group that now closes by the ninth"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_sector text-style-label is-board",
+          "text": "Trading and distribution"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_location text-style-label is-board",
+          "text": "UAE"
+        },
+        {
+          "tag": "span",
+          "cls": "case-ledger_icon is-board",
+          "text": "→"
+        },
+        {
+          "tag": "a",
+          "cls": "case-ledger_row is-board w-inline-block",
+          "href": "/case-studies/software-group-first-corporate-tax-return",
+          "text": "3 weeksFiled ahead of the deadlineA software group's first UAE corporate tax returnSoftwareUAE and UK→"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_metric is-board",
+          "text": "3 weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-board_label text-style-label",
+          "text": "Filed ahead of the deadline"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-ledger_title heading-style-h3 is-board",
+          "text": "A software group's first UAE corporate tax return"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_sector text-style-label is-board",
+          "text": "Software"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_location text-style-label is-board",
+          "text": "UAE and UK"
+        },
+        {
+          "tag": "span",
+          "cls": "case-ledger_icon is-board",
+          "text": "→"
+        },
+        {
+          "tag": "a",
+          "cls": "case-ledger_row is-board w-inline-block",
+          "href": "/case-studies/free-zone-logistics-audit",
+          "text": "7 weeksYear end to signed reportA free zone audit signed in seven weeksLogisticsUAE→"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_metric is-board",
+          "text": "7 weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-board_label text-style-label",
+          "text": "Year end to signed report"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-ledger_title heading-style-h3 is-board",
+          "text": "A free zone audit signed in seven weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_sector text-style-label is-board",
+          "text": "Logistics"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_location text-style-label is-board",
+          "text": "UAE"
+        },
+        {
+          "tag": "span",
+          "cls": "case-ledger_icon is-board",
+          "text": "→"
+        },
+        {
+          "tag": "a",
+          "cls": "case-ledger_row is-board w-inline-block",
+          "href": "/case-studies/hospitality-group-dubai-london",
+          "text": "10 daysMonth end to investor packOne set of numbers for a group in two countriesHospitalityUAE and UK→"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_metric is-board",
+          "text": "10 days"
+        },
+        {
+          "tag": "p",
+          "cls": "case-board_label text-style-label",
+          "text": "Month end to investor pack"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-ledger_title heading-style-h3 is-board",
+          "text": "One set of numbers for a group in two countries"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_sector text-style-label is-board",
+          "text": "Hospitality"
+        },
+        {
+          "tag": "p",
+          "cls": "case-ledger_location text-style-label is-board",
+          "text": "UAE and UK"
+        },
+        {
+          "tag": "span",
+          "cls": "case-ledger_icon is-board",
+          "text": "→"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "/case-studies",
+          "text": "All case studies"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8330eccb39432c6d7e_hf_20261020_211902_6733ff19-fbdf-4638-95ff-d59af44581eb_min.webp",
+          "alt": "A trading group that now closes by the ninth",
+          "cls": "case-board_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8330eccb39432c6db6_hf_20261020_211902_7ded3acf-edf4-4eb0-9ef1-775e38b2f518_min.webp",
+          "alt": "A software group's first UAE corporate tax return",
+          "cls": "case-board_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8530eccb39432c6ddf_hf_20261020_211903_372bdc11-810e-4fe6-9319-de7e72a9290f_min.webp",
+          "alt": "A free zone audit signed in seven weeks",
+          "cls": "case-board_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8530eccb39432c6de5_hf_20261020_211903_09ff5d81-8fb4-4e73-acc3-38c9e8c25a9e_min.webp",
+          "alt": "One set of numbers for a group in two countries",
+          "cls": "case-board_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 7,
+      "className": "section-home-statement-notes",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(06) Insights"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "The latest notes."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "notes."
+        },
+        {
+          "tag": "a",
+          "cls": "insights-list_row w-inline-block",
+          "href": "/insights/first-uae-corporate-tax-return",
+          "text": "October 6, 2026First UAE corporate tax return: what to have readyTax6 min"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_date text-style-label",
+          "text": "October 6, 2026"
+        },
+        {
+          "tag": "h3",
+          "cls": "insights-list_title heading-style-h3",
+          "text": "First UAE corporate tax return: what to have ready"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_category text-style-label",
+          "text": "Tax"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_time text-style-label",
+          "text": "6 min"
+        },
+        {
+          "tag": "a",
+          "cls": "insights-list_row w-inline-block",
+          "href": "/insights/close-the-month-in-ten-days",
+          "text": "September 22, 2026How we close the month in ten working daysAccounting4 min"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_date text-style-label",
+          "text": "September 22, 2026"
+        },
+        {
+          "tag": "h3",
+          "cls": "insights-list_title heading-style-h3",
+          "text": "How we close the month in ten working days"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_category text-style-label",
+          "text": "Accounting"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_time text-style-label",
+          "text": "4 min"
+        },
+        {
+          "tag": "a",
+          "cls": "insights-list_row w-inline-block",
+          "href": "/insights/free-zone-audits-start-in-january",
+          "text": "September 8, 2026Free zone audits: start in January, not in MarchAudit5 min"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_date text-style-label",
+          "text": "September 8, 2026"
+        },
+        {
+          "tag": "h3",
+          "cls": "insights-list_title heading-style-h3",
+          "text": "Free zone audits: start in January, not in March"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_category text-style-label",
+          "text": "Audit"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_time text-style-label",
+          "text": "5 min"
+        },
+        {
+          "tag": "a",
+          "cls": "insights-list_row w-inline-block",
+          "href": "/insights/uk-vat-for-gulf-companies",
+          "text": "August 19, 2026UK VAT for Gulf companies selling into BritainTax5 min"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_date text-style-label",
+          "text": "August 19, 2026"
+        },
+        {
+          "tag": "h3",
+          "cls": "insights-list_title heading-style-h3",
+          "text": "UK VAT for Gulf companies selling into Britain"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_category text-style-label",
+          "text": "Tax"
+        },
+        {
+          "tag": "p",
+          "cls": "insights-list_time text-style-label",
+          "text": "5 min"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 8,
+      "className": "section-home-statement-questions",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "(07) Questions"
+        },
+        {
+          "tag": "h2",
+          "cls": "questions_heading heading-style-h2",
+          "text": "Asked often, answered plainly."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "answered plainly."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Which accounting software do you work in?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Which accounting software do you work in?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Xero, QuickBooks Online and Zoho Books. If you use something else, we will either work in it or move you, and we will tell you which costs less."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Can you take over halfway through the year?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Can you take over halfway through the year?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Yes. Most clients join mid year. We rebuild the months before we started, so the year closes on one consistent set of books."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Do you audit companies whose books you keep?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Do you audit companies whose books you keep?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "No. Our audit team never audits a company that our accounting team works for. If you need both, we will introduce you to an audit firm we trust."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Who will I actually work with?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Who will I actually work with?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "A named accountant for the monthly work and a partner who reviews everything that leaves the building. You will have both of their numbers."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "How do your fees work?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "How do your fees work?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Monthly work is a fixed fee agreed up front. Projects such as audits and registrations are quoted before we start. We do not bill by the hour."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Do you work outside the UAE and the UK?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Do you work outside the UAE and the UK?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "We look after group companies in Saudi Arabia, Bahrain and the EU through partner firms, coordinated by one team at Vika."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 9,
+      "className": "section-home-statement-close",
+      "id": "",
+      "texts": [
+        {
+          "tag": "a",
+          "cls": "closing-row_component",
+          "href": "/contact",
+          "text": "Book a call with Sara"
+        },
+        {
+          "tag": "span",
+          "cls": "closing-row_text",
+          "text": "Book a call with Sara"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}

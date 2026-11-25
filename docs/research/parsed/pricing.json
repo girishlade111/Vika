@@ -1,0 +1,1354 @@
+{
+  "title": "Pricing | Vika fixed fees for UAE and UK companies",
+  "sectionCount": 7,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-pricing-plans",
+      "id": "plans",
+      "texts": [
+        {
+          "tag": "h2",
+          "cls": "text-style-label",
+          "text": "(02) Monthly plans"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Billed monthly in advance"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Billed yearly, two months free"
+        },
+        {
+          "tag": "h3",
+          "cls": "fees_card-name heading-style-h3",
+          "text": "Essential"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-description text-size-regular text-color-secondary",
+          "text": "For one company with fewer than 150 transactions a month."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Fixed fee"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per month, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per year, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Or pay yearly and get two months free."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Two months free, already taken off."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Bookkeeping and bank reconciliations"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Quarterly VAT returns"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "The annual corporate tax return"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Management accounts each quarter"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Email support from your accountant"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "#talk",
+          "text": "Choose this plantalk it through"
+        },
+        {
+          "tag": "h3",
+          "cls": "fees_card-name heading-style-h3",
+          "text": "Growth"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-description text-size-regular text-color-secondary",
+          "text": "For growing companies with a payroll, investors and a board."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Fixed fee"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per month, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per year, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Or pay yearly and get two months free."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Two months free, already taken off."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Everything in Essential"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Monthly management accounts by the tenth"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Payroll and WPS for up to 40 people"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A cash flow forecast every month"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A quarterly review with a partner"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "#talk",
+          "text": "Choose this plantalk it through"
+        },
+        {
+          "tag": "h3",
+          "cls": "fees_card-name heading-style-h3",
+          "text": "Group"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-description text-size-regular text-color-secondary",
+          "text": "For groups with several companies across the UAE and the UK."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Fixed fee"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per month, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Per year, plus VAT"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Or pay yearly and get two months free."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-note text-size-small",
+          "text": "Two months free, already taken off."
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Everything in Growth"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Up to five companies, consolidated"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "VAT groups and transfer pricing support"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A board pack every month"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A partner at your board meetings"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "#talk",
+          "text": "Choose this plantalk it through"
+        },
+        {
+          "tag": "h2",
+          "cls": "text-style-label",
+          "text": "Projects, quoted once"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Half at the start, half on delivery"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h4",
+          "text": "Tax registration"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-project_text text-size-small text-color-secondary",
+          "text": "VAT and corporate tax registration, done within a week."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "Fixed fee"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "one off, plus VAT"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Registration checks across your companies"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Registration and your first tax calendar"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A Small Business Relief assessment"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h4",
+          "text": "Statutory audit"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-project_text text-size-small text-color-secondary",
+          "text": "For free zone and mainland companies in the UAE."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "From"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "per engagement, plus VAT"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A planning meeting in month one"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Two to three weeks of fieldwork"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A signed report within eight weeks of year end"
+        },
+        {
+          "tag": "h3",
+          "cls": "heading-style-h4",
+          "text": "Due diligence"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-project_text text-size-small text-color-secondary",
+          "text": "Financial due diligence for buyers and investors, before they sign."
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "From"
+        },
+        {
+          "tag": "p",
+          "cls": "fees_card-label text-style-label",
+          "text": "per engagement, plus VAT"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Quality of earnings and net debt"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "Working capital and tax exposure review"
+        },
+        {
+          "tag": "li",
+          "cls": "",
+          "text": "A written report in three to four weeks"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-pricing-compare",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(03) Compare"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Plan by plan, line by line."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "line by line."
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "What you get"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_plan-name",
+          "text": "Essential"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_plan-name",
+          "text": "Growth"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_plan-name",
+          "text": "Group"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Companies included"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "One"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Up to two"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Up to five, consolidated"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Bookkeeping and bank reconciliations"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Quarterly VAT returns"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Annual company tax return"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Management accounts"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Each quarter"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Monthly, by the tenth"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Monthly board pack"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Payroll"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Up to 40 people"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Cash flow forecast"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Not included"
+        },
+        {
+          "tag": "span",
+          "cls": "text-style-label",
+          "text": "Not included"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Every month"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Every month"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "VAT groups and transfer pricing support"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Not included"
+        },
+        {
+          "tag": "span",
+          "cls": "text-style-label",
+          "text": "Not included"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Not included"
+        },
+        {
+          "tag": "span",
+          "cls": "text-style-label",
+          "text": "Not included"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Partner time"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Reviews every filing"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "A review every quarter"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "At your board meetings"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Turnaround"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Quarterly accounts in 15 working days"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Close by the tenth working day"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Board pack by the twelfth working day"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Your team"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "A named accountant"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "A senior accountant and a payroll specialist"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "A partner, a manager and two accountants"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_label",
+          "text": "Notice period"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Three months"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Three months"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-compare_cell",
+          "text": "Six months"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg",
+          "alt": "Included",
+          "cls": "pricing-compare_check"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "className": "section-pricing-extras",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(04) Extras"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Priced now, not when you need them."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "not when you need them."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "A second company on Growth"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Keeps its own books, payroll and filings."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Each company above five on Group"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Added to the consolidation and board pack."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Payroll above 40 people on Growth"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Per person paid each month."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Transactions above 150 on Essential"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Per transaction in the month."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Payroll on Essential"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "For a first small team."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Each extra company on a tax registration"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Registered in the same week."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Tax due diligence alongside a deal"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Added to a due diligence report."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Transfer pricing documentation"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "For groups trading between companies."
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-extras_price",
+          "text": "Quoted once a year"
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Arabic translation of an audit report"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "For licence authorities that ask for it."
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "text": "Penalty waiver requests"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-small text-color-secondary",
+          "text": "Prepared and filed for you."
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-extras_price",
+          "text": "Quoted separately"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "className": "section-pricing-billing",
+      "id": "",
+      "texts": [
+        {
+          "tag": "h2",
+          "cls": "text-style-label",
+          "text": "How billing works"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Three steps, no surprises"
+        },
+        {
+          "tag": "li",
+          "cls": "pricing-billing_item",
+          "text": "01A 30 minute scoping callWith a partner, to agree what you need and a start month."
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_number",
+          "text": "01"
+        },
+        {
+          "tag": "h3",
+          "cls": "pricing-billing_title heading-style-h4",
+          "text": "A 30 minute scoping call"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_text text-size-small text-color-secondary",
+          "text": "With a partner, to agree what you need and a start month."
+        },
+        {
+          "tag": "li",
+          "cls": "pricing-billing_item",
+          "text": "02A fixed fee in writingMonthly plans are billed in advance. Projects are paid half at the start and half on delivery."
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_number",
+          "text": "02"
+        },
+        {
+          "tag": "h3",
+          "cls": "pricing-billing_title heading-style-h4",
+          "text": "A fixed fee in writing"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_text text-size-small text-color-secondary",
+          "text": "Monthly plans are billed in advance. Projects are paid half at the start and half on delivery."
+        },
+        {
+          "tag": "li",
+          "cls": "pricing-billing_item",
+          "text": "03Reviewed once a yearWe review the fee with you once a year, and never change it in the middle of a contract."
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_number",
+          "text": "03"
+        },
+        {
+          "tag": "h3",
+          "cls": "pricing-billing_title heading-style-h4",
+          "text": "Reviewed once a year"
+        },
+        {
+          "tag": "p",
+          "cls": "pricing-billing_text text-size-small text-color-secondary",
+          "text": "We review the fee with you once a year, and never change it in the middle of a contract."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "className": "section-pricing-quotes",
+      "id": "",
+      "texts": [
+        {
+          "tag": "h2",
+          "cls": "text-style-label",
+          "text": "(05) What clients say"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Four of 340 clients"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line1",
+          "text": "“We changed accountants three"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line2",
+          "text": "times in four years. Vika is the"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line3",
+          "text": "first firm our investors stopped"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line4",
+          "text": "asking questions about.”"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "Nadia Haddad"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "Chief Financial Officer, Halcyon Pay"
+        },
+        {
+          "tag": "p",
+          "cls": "home-clients_mark is-sans",
+          "text": "Halcyon Pay"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Client since"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "2021"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Works with us on"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "Accounting, payroll and tax"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line1",
+          "text": "“Our VAT group covers three"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line2",
+          "text": "companies in two free zones. In"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line3",
+          "text": "four years it has never once been"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line4",
+          "text": "late.”"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "Omar Farouk"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "Founder, Mira Foods"
+        },
+        {
+          "tag": "p",
+          "cls": "home-clients_mark is-italic",
+          "text": "Mira Foods"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Client since"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "2022"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Works with us on"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "VAT group and corporate tax"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line1",
+          "text": "“The audit used to take over our"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line2",
+          "text": "whole March. Now it is two"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line3",
+          "text": "weeks of fieldwork and a letter"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line4",
+          "text": "we actually read.”"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "James Whitlock"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "Finance Director, Nordhaus"
+        },
+        {
+          "tag": "p",
+          "cls": "home-clients_mark is-caps",
+          "text": "NORDHAUS"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Client since"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "2024"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Works with us on"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "Statutory audit"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line1",
+          "text": "“They told us what corporate tax"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line2",
+          "text": "would cost us a year before it"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line3",
+          "text": "applied. That year was worth"
+        },
+        {
+          "tag": "span",
+          "cls": "gsap_split_line gsap_split_line4",
+          "text": "more than the fee.”"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-weight-medium",
+          "text": "Leila Mansour"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "Chief Operating Officer, Seasons Group"
+        },
+        {
+          "tag": "p",
+          "cls": "home-clients_mark is-sans",
+          "text": "Seasons Group"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Client since"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "2022"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Works with us on"
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular",
+          "text": "Corporate tax and group reporting"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 6,
+      "className": "section-pricing-questions",
+      "id": "questions",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "(06) Questions"
+        },
+        {
+          "tag": "h2",
+          "cls": "questions_heading heading-style-h2",
+          "text": "About fees, answered."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "answered."
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-regular text-color-secondary",
+          "text": "The questions we hear most once the numbers are on the table. Anything else, ask us directly."
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "#talk",
+          "text": "ask us directly"
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "How do your fees work?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "How do your fees work?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Monthly work is a fixed fee agreed up front. Projects such as audits and registrations are quoted before we start. We do not bill by the hour."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Are the fees on this page plus VAT?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Are the fees on this page plus VAT?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Yes. Every fee here is shown before VAT, which is 5% in the UAE and 20% in the UK."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Are the prices on this page a quote?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Are the prices on this page a quote?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Not yet. They are our standard fees for the plans, projects and extras most clients need. A partner confirms your fee in writing after a 30 minute call."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "What happens if we grow during the year?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "What happens if we grow during the year?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "The extras on this page are priced now, so a second company or a bigger payroll never comes as a surprise. If a bigger plan fits better, we agree it with you before anything changes."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Can we pay for the year up front?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Can we pay for the year up front?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Yes. Pay yearly and you pay ten months of fees for twelve months of work. The fee is still reviewed with you once a year."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "What is the notice period?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "What is the notice period?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Three months on Essential and Growth, six months on Group. Projects are paid half at the start and half on delivery."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Why is the audit not part of my plan?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Why is the audit not part of my plan?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Independence rules. We never audit a company whose books we keep. If you need both, we introduce you to an audit firm we trust."
+        },
+        {
+          "tag": "a",
+          "cls": "questions_question w-inline-block",
+          "href": "#",
+          "text": "Can you take over halfway through the year?+"
+        },
+        {
+          "tag": "h3",
+          "cls": "questions_question-text heading-style-h4",
+          "text": "Can you take over halfway through the year?"
+        },
+        {
+          "tag": "span",
+          "cls": "questions_icon",
+          "text": "+"
+        },
+        {
+          "tag": "p",
+          "cls": "questions_answer-text text-size-regular text-color-secondary",
+          "text": "Yes. Most clients join mid year. We rebuild the months before we started, so the year closes on one consistent set of books."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 7,
+      "className": "section-pricing-talk",
+      "id": "talk",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Talk to a partner"
+        },
+        {
+          "tag": "h2",
+          "cls": "home-close_heading heading-style-h1",
+          "text": "Talk to Sara."
+        },
+        {
+          "tag": "p",
+          "cls": "text-size-large",
+          "text": "Thirty minutes with our managing partner. Bring your numbers, and by the end of the call you will know your fee."
+        },
+        {
+          "tag": "p",
+          "cls": "home-close_status text-style-label",
+          "text": "Dubai office open Monday to Friday, 8:30 to 18:00"
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon",
+          "href": "/contact",
+          "text": "Book a callwith a partner"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "mailto:sara@vika.example",
+          "text": "sara@vika.example"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad74e5742a192254902bbf8_vika-folder-handover.webp",
+          "alt": "Two hands passing a burgundy document folder across an oak table",
+          "cls": "home-close_image"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}

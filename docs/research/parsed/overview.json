@@ -1,0 +1,999 @@
+{
+  "title": "Vika | Webflow template for accounting, tax and audit firms",
+  "sectionCount": 5,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-sale-system",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "sale-system_label-text text-style-label",
+          "text": "The Vika system"
+        },
+        {
+          "tag": "h2",
+          "cls": "sale-system_heading heading-style-h2",
+          "text": "Every page, every figure, built for firms that get audited."
+        },
+        {
+          "tag": "p",
+          "cls": "sale-system_intro text-size-medium",
+          "text": "We build websites for finance firms and kept rebuilding the same parts: fee tables, filing calendars, partner profiles. Vika is that work as a template, with every class and variable named for a reason."
+        },
+        {
+          "tag": "h3",
+          "cls": "sale-system_card-title",
+          "text": "Three homes, one system"
+        },
+        {
+          "tag": "p",
+          "cls": "sale-system_card-text",
+          "text": "Classic, Cinematic and Statement homes, with Studio and Contact in three layouts too. Every section sits on the same Client First classes and variables, so parts move between layouts cleanly."
+        },
+        {
+          "tag": "h3",
+          "cls": "sale-system_card-title",
+          "text": "UAE or UK pricing, no code"
+        },
+        {
+          "tag": "p",
+          "cls": "sale-system_card-text",
+          "text": "Fees switch between AED and GBP, monthly and yearly, with CMS fields and native interactions. Change a price in the CMS and every view updates."
+        },
+        {
+          "tag": "h3",
+          "cls": "sale-system_card-title",
+          "text": "Seven CMS collections"
+        },
+        {
+          "tag": "p",
+          "cls": "sale-system_card-text",
+          "text": "Services, people, insights, case studies, plans, deadlines and questions. Filing deadlines roll forward on their own and featured case studies feed every home."
+        },
+        {
+          "tag": "p",
+          "cls": "sale-figma_label text-style-label",
+          "text": "Included"
+        },
+        {
+          "tag": "p",
+          "cls": "sale-figma_title",
+          "text": "The full Figma file comes with every purchase."
+        },
+        {
+          "tag": "p",
+          "cls": "sale-figma_text",
+          "text": "Every page, component and style in Vika, with auto layout and variables that match the Webflow build. Email info@margined.co with your Webflow order number to receive it."
+        },
+        {
+          "tag": "a",
+          "cls": "sale-figma_link",
+          "href": "mailto:info@margined.co?subject=Vika%20Figma%20file",
+          "text": "info@margined.co"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad93b13ee224869f709159f_vika-overview-system-layouts.webp",
+          "alt": "Classic, Cinematic and Statement home pages",
+          "cls": "sale-system_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad93b13456da7145bbb9b05_vika-overview-system-pricing.webp",
+          "alt": "Pricing switched to UK fees billed yearly",
+          "cls": "sale-system_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba0de7b30bb164ddb5762_vika-overview-system-cms-v2.webp",
+          "alt": "Team profile, insight and case study pages",
+          "cls": "sale-system_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-overview",
+      "id": "pages",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "01 Home layouts"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Three ways in. One system underneath."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "One system underneath."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/",
+          "text": "vika.exampleIndex01 ClassicPaper, ink and a burgundy accent. The calm, editorial version of the studio."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Index"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01 Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Paper, ink and a burgundy accent. The calm, editorial version of the studio."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/cinematic/home-cinematic",
+          "text": "vika.example/home-cinematicIndex02 CinematicFull bleed imagery, dark sections and a slow, filmic scroll."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Index"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "02 Cinematic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Full bleed imagery, dark sections and a slow, filmic scroll."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/statement/home-statement",
+          "text": "vika.example/home-statementIndex03 StatementGiant type, ruled ledgers and the boldest first impression."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Index"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "03 Statement"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Giant type, ruled ledgers and the boldest first impression."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad869721f8ecd7e31e2232e_vika-overview-home-v2.webp",
+          "alt": "Preview of the Classic home page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad869722ff22c6be4899121_vika-overview-home-cinematic-v2.webp",
+          "alt": "Preview of the Cinematic home page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad86972758abe2d44e15706_vika-overview-home-statement-v2.webp",
+          "alt": "Preview of the Statement home page",
+          "cls": "overview-card_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "className": "section-overview",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "02 Main pages"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Every main page, Studio and Contact three ways."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "Studio and Contact three ways."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Studio"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "People and offices"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/studio",
+          "text": "vika.example/studioClassic01The firm, its partners and its two offices."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "The firm, its partners and its two offices."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/cinematic/studio-cinematic",
+          "text": "vika.example/studio-cinematicCinematic02Wide office imagery, growth figures and the team."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Cinematic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "02"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Wide office imagery, growth figures and the team."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/statement/studio-statement",
+          "text": "vika.example/studio-statementStatement03Values, growth bars and live office clocks."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Statement"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "03"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Values, growth bars and live office clocks."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Team"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Partners and managers"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/team",
+          "text": "vika.example/teamClassic01Partner profiles, managers and how the firm works with you."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Partner profiles, managers and how the firm works with you."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Services"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Practices and fees"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/services",
+          "text": "vika.example/servicesClassic01Practices, fees and the calendar in clean editorial rows."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Practices, fees and the calendar in clean editorial rows."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Pricing"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Plans, extras and billing"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/pricing",
+          "text": "vika.example/pricingClassic01Monthly plans, a plan by plan comparison, priced extras and how billing works."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Monthly plans, a plan by plan comparison, priced extras and how billing works."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Insights"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Notes and articles"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/insights",
+          "text": "vika.example/insightsClassic01A featured note and the full list of articles."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "A featured note and the full list of articles."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-group_title",
+          "text": "Contact"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Calls and enquiries"
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/contact",
+          "text": "vika.example/contactClassic01Book a call or write to either office."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Classic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "01"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Book a call or write to either office."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/cinematic/contact-cinematic",
+          "text": "vika.example/contact-cinematicCinematic02Choose a partner, then a day and a time."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Cinematic"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "02"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Choose a partner, then a day and a time."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/statement/contact-statement",
+          "text": "vika.example/contact-statementStatement03One question at a time, with a live summary."
+        },
+        {
+          "tag": "h4",
+          "cls": "overview-card_title",
+          "text": "Statement"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "03"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "One question at a time, with a live summary."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e4494935c714ce22ff9_vika-overview-studio.webp",
+          "alt": "Preview of the Classic Studio page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e442d080ae1dcd73f04_vika-overview-studio-cinematic.webp",
+          "alt": "Preview of the Cinematic Studio page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e445865d33ce76eadbc_vika-overview-studio-statement.webp",
+          "alt": "Preview of the Statement Studio page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad9b7148a9a9d1b25c2f9bd_vika-overview-team.webp",
+          "alt": "Preview of the Team page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e199b907d4a3788ab09_vika-overview-services.webp",
+          "alt": "Preview of the Services page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad9d74ec31cd8670c13f27c_vika-overview-pricing-v3.webp",
+          "alt": "Full page preview of the Vika Pricing page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e441a9cb9cd04c85ced_vika-overview-insights.webp",
+          "alt": "Preview of the Insights page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e4597486c17fce17058_vika-overview-contact.webp",
+          "alt": "Preview of the Classic Contact page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e463e9b6d3dd7f24da6_vika-overview-contact-cinematic.webp",
+          "alt": "Preview of the Cinematic Contact page with partner and time booking",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e4794935c714ce231c4_vika-overview-contact-statement.webp",
+          "alt": "Preview of the Statement Contact page with a step by step questionnaire",
+          "cls": "overview-card_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "className": "section-overview",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "03 CMS templates"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Seven collections, one page each."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "one page each."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/services/accounting",
+          "text": "vika.example/services/accountingService pageTemplateSteps, fees, the partner and related case studies."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Service page"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Steps, fees, the partner and related case studies."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/insights/uk-vat-for-gulf-companies",
+          "text": "vika.example/insights/uk-vat-for-gulf-companiesInsight articleTemplateA long form note with its author and related reading."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Insight article"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "A long form note with its author and related reading."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/case-studies/trading-group-monthly-close",
+          "text": "vika.example/case-studies/trading-group-monthly-closeCase studyTemplateThe challenge, the work, three results and a quote."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Case study"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "The challenge, the work, three results and a quote."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/people/sara-lindqvist",
+          "text": "vika.example/people/sara-lindqvistPersonTemplateA partner profile with credentials and contact details."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Person"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "A partner profile with credentials and contact details."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/plans/statutory-audit",
+          "text": "vika.example/plans/statutory-auditFee planTemplateScope, team, turnaround, add ons and terms for one plan."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Fee plan"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Scope, team, turnaround, add ons and terms for one plan."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/deadlines/uk-ct600-2026",
+          "text": "vika.example/deadlines/uk-ct600-2026DeadlineTemplateOne filing date explained, with penalties and the source."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Deadline"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "One filing date explained, with penalties and the source."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/questions/how-fees-work",
+          "text": "vika.example/questions/how-fees-workQuestionTemplateA single answer from the questions list."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Question"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Template"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "A single answer from the questions list."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/case-studies",
+          "text": "vika.example/case-studiesCase studiesListingEvery client story in one grid, run from the CMS."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Case studies"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Listing"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Every client story in one grid, run from the CMS."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e47a17432406d67b6d1_vika-overview-tpl-service.webp",
+          "alt": "Preview of the service page template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad860f06673e37f1acb112b_vika-overview-tpl-insight-v2.webp",
+          "alt": "Preview of the insight article template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e48a522350cc8c47f9e_vika-overview-tpl-case.webp",
+          "alt": "Preview of the case study template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad9d74ec5490e98f90aef78_vika-overview-tpl-person-v3.webp",
+          "alt": "Preview of the partner profile template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e68cff550a80a2fde95_vika-overview-tpl-plan.webp",
+          "alt": "Preview of the fee plan template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6afb4aa85e0a1e6f03_vika-overview-tpl-deadline.webp",
+          "alt": "Preview of the tax deadline template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6aa522350cc8c48774_vika-overview-tpl-question.webp",
+          "alt": "Preview of the question template",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad860f06e365b69295785a7_vika-overview-case-studies-v2.webp",
+          "alt": "Preview of the Case Studies page",
+          "cls": "overview-card_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 5,
+      "className": "section-overview",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "04 Utility pages"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "The pages behind the site."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "behind the site."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/style-guide",
+          "text": "vika.example/style-guideStyle guideUtilityType, colour, buttons and spacing classes."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Style guide"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Type, colour, buttons and spacing classes."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/instructions",
+          "text": "vika.example/instructionsInstructionsUtilityHow to edit every part of the template."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Instructions"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "How to edit every part of the template."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/licenses",
+          "text": "vika.example/licensesLicensesUtilityThe fonts, images and tools used in Vika."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Licenses"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "The fonts, images and tools used in Vika."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/changelog",
+          "text": "vika.example/changelogChangelogUtilityEvery version and what changed in it."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Changelog"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "Every version and what changed in it."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/privacy-policy",
+          "text": "vika.example/privacy-policyPrivacy PolicyUtilityA sample policy for the UAE and the UK."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Privacy Policy"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "A sample policy for the UAE and the UK."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/404",
+          "text": "vika.example/404404UtilityThe page visitors see when a link is out of date."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "404"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "The page visitors see when a link is out of date."
+        },
+        {
+          "tag": "a",
+          "cls": "overview-card_component w-inline-block",
+          "href": "/401",
+          "text": "vika.example/401PasswordUtilityThe page for password protected areas."
+        },
+        {
+          "tag": "h3",
+          "cls": "overview-card_title",
+          "text": "Password"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_tag text-style-label",
+          "text": "Utility"
+        },
+        {
+          "tag": "p",
+          "cls": "overview-card_text",
+          "text": "The page for password protected areas."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6b9a7530b37646a53b_vika-overview-style-guide.webp",
+          "alt": "Preview of the Style Guide page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ada2d5b76c06d675290eb53_vika-overview-instructions-v3.webp",
+          "alt": "Preview of the Instructions page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad9d74e1957d6eae159187b_vika-overview-licenses-v3.webp",
+          "alt": "Preview of the Licenses page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad9d74e5f0bad41636b3d87_vika-overview-changelog-v3.webp",
+          "alt": "Preview of the Changelog page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6b4e85f3eaaa298b54_vika-overview-privacy.webp",
+          "alt": "Preview of the Privacy Policy page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6b4e1abfacb821f6f4_vika-overview-404.webp",
+          "alt": "Preview of the 404 page",
+          "cls": "overview-card_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6ad84e6c4e1abfacb821f724_vika-overview-password.webp",
+          "alt": "Preview of the password page",
+          "cls": "overview-card_image"
+        }
+      ],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}

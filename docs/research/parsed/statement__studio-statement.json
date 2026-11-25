@@ -1,0 +1,505 @@
+{
+  "title": "Studio | Vika values and growth, Statement",
+  "sectionCount": 4,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-studio-statement-rules",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(01) How we work"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Three rules. No exceptions."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "No exceptions."
+        },
+        {
+          "tag": "h3",
+          "cls": "rule-stack_title",
+          "text": "Closed by the tenth"
+        },
+        {
+          "tag": "p",
+          "cls": "rule-stack_text",
+          "text": "Numbers are only useful while they are recent. Every client’s month is closed by the tenth working day."
+        },
+        {
+          "tag": "h3",
+          "cls": "rule-stack_title",
+          "text": "Nothing filed unseen"
+        },
+        {
+          "tag": "p",
+          "cls": "rule-stack_text",
+          "text": "We never file a return you have not read and approved, however close the deadline."
+        },
+        {
+          "tag": "h3",
+          "cls": "rule-stack_title",
+          "text": "Fixed fees, said early"
+        },
+        {
+          "tag": "p",
+          "cls": "rule-stack_text",
+          "text": "You know what the year will cost before it starts. If the work changes, we say so before we do it."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-studio-statement-record",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(02) The record"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Clients on the books, year by year."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "year by year."
+        },
+        {
+          "tag": "li",
+          "cls": "growth_row",
+          "text": "20164Sara opens Vika in a shared office in Dubai, with four clients and one rule: close by the tenth."
+        },
+        {
+          "tag": "p",
+          "cls": "growth_year",
+          "text": "2016"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_count",
+          "text": "4"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_text",
+          "text": "Sara opens Vika in a shared office in Dubai, with four clients and one rule: close by the tenth."
+        },
+        {
+          "tag": "li",
+          "cls": "growth_row",
+          "text": "201960The London office opens to look after the UK companies of our Gulf clients."
+        },
+        {
+          "tag": "p",
+          "cls": "growth_year",
+          "text": "2019"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_count",
+          "text": "60"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_text",
+          "text": "The London office opens to look after the UK companies of our Gulf clients."
+        },
+        {
+          "tag": "li",
+          "cls": "growth_row",
+          "text": "2023210Corporate tax arrives in the UAE. Rami joins to build the tax practice."
+        },
+        {
+          "tag": "p",
+          "cls": "growth_year",
+          "text": "2023"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_count",
+          "text": "210"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_text",
+          "text": "Corporate tax arrives in the UAE. Rami joins to build the tax practice."
+        },
+        {
+          "tag": "li",
+          "cls": "growth_row",
+          "text": "2024270The audit practice opens as a separate team, led by Hannah from London."
+        },
+        {
+          "tag": "p",
+          "cls": "growth_year",
+          "text": "2024"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_count",
+          "text": "270"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_text",
+          "text": "The audit practice opens as a separate team, led by Hannah from London."
+        },
+        {
+          "tag": "li",
+          "cls": "growth_row",
+          "text": "2026340340 companies, 26 people, two offices and the same rule as day one."
+        },
+        {
+          "tag": "p",
+          "cls": "growth_year",
+          "text": "2026"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_count",
+          "text": "340"
+        },
+        {
+          "tag": "p",
+          "cls": "growth_text",
+          "text": "340 companies, 26 people, two offices and the same rule as day one."
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    },
+    {
+      "index": 3,
+      "className": "section-studio-statement-team",
+      "id": "team",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(03) The register"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Partners and managers."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "managers."
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Sara Lindqvist"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Managing Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "ACA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "Dubai"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:sara@vika.example",
+          "text": "sara@vika.example"
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Rami Nassar"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Tax Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "CTA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "Dubai"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:rami@vika.example",
+          "text": "rami@vika.example"
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Hannah Okoye"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Audit Partner"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "FCCA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "London"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:hannah@vika.example",
+          "text": "hannah@vika.example"
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Leo Brandt"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Head of Accounting"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "ACMA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "London"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:leo@vika.example",
+          "text": "leo@vika.example"
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Maya Iyer"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Senior Manager, Tax"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "ACA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "Dubai"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:maya@vika.example",
+          "text": "maya@vika.example"
+        },
+        {
+          "tag": "p",
+          "cls": "register_person",
+          "text": "Tomas Reyes"
+        },
+        {
+          "tag": "p",
+          "cls": "register_cell",
+          "text": "Senior Manager, Audit"
+        },
+        {
+          "tag": "p",
+          "cls": "register_credential text-style-label",
+          "text": "ACCA"
+        },
+        {
+          "tag": "p",
+          "cls": "register_office register_cell",
+          "text": "Dubai"
+        },
+        {
+          "tag": "a",
+          "cls": "register_email text-style-link",
+          "href": "mailto:tomas@vika.example",
+          "text": "tomas@vika.example"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed4f6123684bc6c2ce7_hf_20261020_105326_74952645-e7d1-4697-8e93-c0f97700aa8d_min.webp",
+          "alt": "Sara Lindqvist",
+          "cls": "register_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed4f6123684bc6c2ce4_hf_20261020_105323_e26ca1c9-0608-4d03-ad0c-9f822e428b66_min.webp",
+          "alt": "Rami Nassar",
+          "cls": "register_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed4f6123684bc6c2cde_hf_20261020_105324_845f2673-c2a4-4618-8c8a-3801b788d73d_min.webp",
+          "alt": "Hannah Okoye",
+          "cls": "register_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed3f6123684bc6c2cd5_hf_20261020_105322_80a7273e-ba79-4b19-9611-98bf951ea05b_min.webp",
+          "alt": "Leo Brandt",
+          "cls": "register_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed4f6123684bc6c2cea_hf_20261020_105323_21146dd8-6c7d-454a-871f-5acd9dd98e07_min.webp",
+          "alt": "Maya Iyer",
+          "cls": "register_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad74ed4f6123684bc6c2ce1_hf_20261020_105325_1c83f828-3381-4e21-9ffb-049d8d7d8fa8_min.webp",
+          "alt": "Tomas Reyes",
+          "cls": "register_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 4,
+      "className": "section-studio-statement-offices",
+      "id": "offices",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "(04) Offices"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "Two offices, one calendar."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "one calendar."
+        },
+        {
+          "tag": "h3",
+          "cls": "office-text_city",
+          "text": "Dubai"
+        },
+        {
+          "tag": "p",
+          "cls": "office-text_zone",
+          "text": "GMT+4"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Local time"
+        },
+        {
+          "tag": "p",
+          "cls": "office-text_time",
+          "text": "14:26"
+        },
+        {
+          "tag": "p",
+          "cls": "offices_hours text-style-label",
+          "text": "Monday to Friday, 8:30 to 18:00"
+        },
+        {
+          "tag": "p",
+          "cls": "offices_address text-size-regular text-color-secondary",
+          "text": "Level 12, Vika House, Business Bay, Dubai"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "tel:+97140000000",
+          "text": "+971 4 000 0000"
+        },
+        {
+          "tag": "h3",
+          "cls": "office-text_city",
+          "text": "London"
+        },
+        {
+          "tag": "p",
+          "cls": "office-text_zone",
+          "text": "GMT/BST"
+        },
+        {
+          "tag": "p",
+          "cls": "text-style-label",
+          "text": "Local time"
+        },
+        {
+          "tag": "p",
+          "cls": "office-text_time",
+          "text": "10:26"
+        },
+        {
+          "tag": "p",
+          "cls": "offices_hours text-style-label",
+          "text": "Monday to Friday, 9:00 to 17:30"
+        },
+        {
+          "tag": "p",
+          "cls": "offices_address text-size-regular text-color-secondary",
+          "text": "14 Vika Yard, London EC1"
+        },
+        {
+          "tag": "a",
+          "cls": "text-style-link",
+          "href": "tel:+442079460142",
+          "text": "+44 20 7946 0142"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}

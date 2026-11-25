@@ -1,0 +1,234 @@
+{
+  "title": "Case studies | Vika results for UAE and UK clients",
+  "sectionCount": 2,
+  "sections": [
+    {
+      "index": 1,
+      "className": "section-case-studies-list",
+      "id": "",
+      "texts": [
+        {
+          "tag": "p",
+          "cls": "section-head_label text-style-label",
+          "text": "All case studies"
+        },
+        {
+          "tag": "h2",
+          "cls": "section-head_heading heading-style-h2",
+          "text": "The problem, the work, the result."
+        },
+        {
+          "tag": "span",
+          "cls": "text-color-tertiary",
+          "text": "the result."
+        },
+        {
+          "tag": "a",
+          "cls": "case-cards_card is-stack w-inline-block",
+          "href": "/case-studies/trading-group-monthly-close",
+          "text": "Trading and distributionUAEA trading group that now closes by the ninthMonth end close cut from 24 working days to 9, across four companies.9 daysMonth end close, down from 24"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "Trading and distribution"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "UAE"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-cards_title heading-style-h3",
+          "text": "A trading group that now closes by the ninth"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_result",
+          "text": "Month end close cut from 24 working days to 9, across four companies."
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-value",
+          "text": "9 days"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-label text-style-label",
+          "text": "Month end close, down from 24"
+        },
+        {
+          "tag": "a",
+          "cls": "case-cards_card is-stack w-inline-block",
+          "href": "/case-studies/software-group-first-corporate-tax-return",
+          "text": "SoftwareUAE and UKA software group's first UAE corporate tax returnFirst UAE corporate tax return filed three weeks early, with transfer pricing documented in both countries.3 weeksFiled ahead of the deadline"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "Software"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "UAE and UK"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-cards_title heading-style-h3",
+          "text": "A software group's first UAE corporate tax return"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_result",
+          "text": "First UAE corporate tax return filed three weeks early, with transfer pricing documented in both countries."
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-value",
+          "text": "3 weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-label text-style-label",
+          "text": "Filed ahead of the deadline"
+        },
+        {
+          "tag": "a",
+          "cls": "case-cards_card is-stack w-inline-block",
+          "href": "/case-studies/free-zone-logistics-audit",
+          "text": "LogisticsUAEA free zone audit signed in seven weeksAudit report signed seven weeks after year end, in time for the licence renewal.7 weeksYear end to signed report"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "Logistics"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "UAE"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-cards_title heading-style-h3",
+          "text": "A free zone audit signed in seven weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_result",
+          "text": "Audit report signed seven weeks after year end, in time for the licence renewal."
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-value",
+          "text": "7 weeks"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-label text-style-label",
+          "text": "Year end to signed report"
+        },
+        {
+          "tag": "a",
+          "cls": "case-cards_card is-stack w-inline-block",
+          "href": "/case-studies/hospitality-group-dubai-london",
+          "text": "HospitalityUAE and UKOne set of numbers for a group in two countriesEleven companies in two countries report on one calendar, with an investor pack ten working days after month end.10 daysMonth end to investor pack"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "Hospitality"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_meta-text text-style-label",
+          "text": "UAE and UK"
+        },
+        {
+          "tag": "h3",
+          "cls": "case-cards_title heading-style-h3",
+          "text": "One set of numbers for a group in two countries"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_result",
+          "text": "Eleven companies in two countries report on one calendar, with an investor pack ten working days after month end."
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-value",
+          "text": "10 days"
+        },
+        {
+          "tag": "p",
+          "cls": "case-cards_metric-label text-style-label",
+          "text": "Month end to investor pack"
+        }
+      ],
+      "imgs": [
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8330eccb39432c6d7e_hf_20261020_211902_6733ff19-fbdf-4638-95ff-d59af44581eb_min.webp",
+          "alt": "Shipping invoices and a burgundy folder on an oak desk in a trading company office",
+          "cls": "case-cards_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8330eccb39432c6db6_hf_20261020_211902_7ded3acf-edf4-4eb0-9ef1-775e38b2f518_min.webp",
+          "alt": "Laptop with a tax computation beside a burgundy folder on an oak desk",
+          "cls": "case-cards_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8530eccb39432c6ddf_hf_20261020_211903_372bdc11-810e-4fe6-9319-de7e72a9290f_min.webp",
+          "alt": "Office overlooking a free zone warehouse, with box files on the table",
+          "cls": "case-cards_image"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6ad71b2c15a8d7484d15757d/6ad7db8530eccb39432c6de5_hf_20261020_211903_09ff5d81-8fb4-4e73-acc3-38c9e8c25a9e_min.webp",
+          "alt": "Hotel lobby with a stone floor, oak reception desk and burgundy armchair",
+          "cls": "case-cards_image"
+        }
+      ],
+      "videos": []
+    },
+    {
+      "index": 2,
+      "className": "section-cta",
+      "id": "",
+      "texts": [
+        {
+          "tag": "h2",
+          "cls": "close_lead",
+          "text": "Recognise one of these?"
+        },
+        {
+          "tag": "p",
+          "cls": "close_tail",
+          "text": "Talk to a partner."
+        },
+        {
+          "tag": "a",
+          "cls": "button is-icon w-variant-a4f741f0-9cfa-8d6f-e614-75aa2701cf58",
+          "href": "/contact",
+          "text": "Book a callwith a partner"
+        }
+      ],
+      "imgs": [],
+      "videos": []
+    }
+  ],
+  "scripts": [
+    {
+      "comment": "GSAP / Navbar menu and Studio Statement / Office clocks tick: live analog clocks in the menu and on Studio Statement. Each clock row carries its time zone in a data-clock-tz attribute, such as Europe/London. GSAP turns the hour, minute and second hands and writes the time into the element marked data-clock-time (or .office-text_time). Remove this block to drop the clocks; the dials then show their resting position.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, rows = document.querySelectorAll('[data-clock-tz]');\n  if (!g || !rows.length) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  var clocks = [].map.call(rows, function (row) {\n    var q = function (s) { return row.querySelector(s); };\n    return { f: new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', timeZone: row.getAttribute('data-clock-tz') }),\n      time: q('[data-clock-time]') || q('.office-text_time'), h: q('.clock_hand.is-hour'), m: q('.clock_hand.is-minute'), s: q('.clock_hand.is-second'), turns: 0, last: -1 };\n  });\n  function pad(n) { return (n < 10 ? '0' : '') + n; }\n  function tick() {\n    var now = new Date();\n    clocks.forEach(function (k) {\n      var p = {}; k.f.formatToParts(now).forEach(function (x) { p[x.type] = +x.value; });\n      if (k.time) k.time.textContent = pad(p.hour) + ':' + pad(p.minute);\n      if (k.h) g.set(k.h, { rotation: (p.hour % 12) * 30 + p.minute * 0.5 });\n      if (k.m) g.set(k.m, { rotation: p.minute * 6 + p.second * 0.1 });\n      if (k.s) { if (k.last >= 0 && p.second < k.last) k.turns++; k.last = p.second;\n        var deg = (k.turns * 60 + p.second) * 6;\n        if (still) g.set(k.s, { rotation: deg }); else g.to(k.s, { rotation: deg, duration: 0.35, ease: 'back.out(3)', overwrite: true }); }\n    });\n    g.delayedCall(1 - (Date.now() % 1000) / 1000, tick);\n  }\n  tick();\n});"
+    },
+    {
+      "comment": "GSAP / Navbar menu / Link hover focus: pointing at or tabbing to one of the main menu links dims the others to 50% and turns that link to the accent colour, with a small nudge to the right. The accent is read from the menu's Accent Primary variable, so a new brand colour carries over. Remove this block to keep the links static.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap;\n  if (!g) return;\n  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches, d = still ? 0 : 0.4;\n  [].forEach.call(document.querySelectorAll('.navbar_menu-links'), function (nav) {\n    var links = [].slice.call(nav.querySelectorAll('.navbar_menu-link'));\n    if (!links.length) return;\n    function colours() {\n      return { base: getComputedStyle(nav).color, accent: getComputedStyle(nav).getPropertyValue('--accent-color--accent-primary').trim() || getComputedStyle(nav).color };\n    }\n    function focus(active) {\n      var c = colours();\n      links.forEach(function (l) {\n        var on = l === active;\n        g.to(l, { opacity: active && !on ? 0.5 : 1, x: on && !still ? 14 : 0, color: on ? c.accent : c.base, duration: d, ease: 'power3.out', overwrite: 'auto' });\n      });\n    }\n    links.forEach(function (l) {\n      l.addEventListener('mouseenter', function () { focus(l); });\n      l.addEventListener('focus', function () { focus(l); });\n    });\n    nav.addEventListener('mouseleave', function () { focus(null); });\n    nav.addEventListener('focusout', function (e) { if (!nav.contains(e.relatedTarget)) focus(null); });\n  });\n});"
+    },
+    {
+      "comment": "GSAP / Global / Counters count up on scroll: figures count up from zero the first time they scroll into view, using GSAP and ScrollTrigger. It picks up the studio figures, the Statement ledger, case study results and metrics, and any element you give a data-count attribute. The text stays as typed in the Designer or the CMS, such as 2,100 or 9 days; the script counts the number inside it and keeps the words around it. Remove this block and the figures simply show as typed.",
+      "code": "window.Webflow = window.Webflow || [];\nWebflow.push(function () {\n  var g = window.gsap, ST = window.ScrollTrigger;\n  if (!g || !ST || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;\n  g.registerPlugin(ST);\n  var SEL = '[data-count], .home-studio_figure-number, .ledger_value, .case-results_value, .case-cards_metric-value, .case-ledger_metric';\n  var NUM = /\\d[\\d,]*(\\.\\d+)?/;\n  g.utils.toArray(SEL).forEach(function (el) {\n    var text = el.textContent, m = text.match(NUM);\n    if (!m) return;\n    var raw = m[0], dec = m[1] ? m[1].length - 1 : 0, to = parseFloat(raw.replace(/,/g, '')), comma = raw.indexOf(',') > -1, pad = /^0\\d/.test(raw) ? raw.length : 0, o = { v: 0 };\n    function show(v) {\n      var s = comma ? v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec }) : v.toFixed(dec);\n      while (s.length < pad) s = '0' + s;\n      el.textContent = text.replace(raw, s);\n    }\n    show(0);\n    g.to(o, { v: to, duration: 0.8, ease: 'power3.out', onUpdate: function () { show(o.v); }, onComplete: function () { el.textContent = text; },\n      scrollTrigger: { trigger: el, start: 'top 85%', once: true } });\n  });\n});"
+    }
+  ]
+}
