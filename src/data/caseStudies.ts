@@ -1,0 +1,206 @@
+import type { CaseStudy } from './types';
+
+export const CASE_STUDIES: CaseStudy[] = [
+  {
+    id: 'cs-trading-group',
+    slug: 'trading-group-monthly-close',
+    client: 'Family owned trading group',
+    sector: 'Trading and distribution',
+    location: 'UAE',
+    year: '2025',
+    engagement: 'Ongoing since 2024',
+    practice: 'Accounting',
+    title: 'A trading group that now closes by the ninth',
+    summary: 'Month end close cut from 24 working days to 9, across four companies.',
+    coverImage:
+      '/assets/images/case-studies/6ad7db8330eccb39432c6d7e_hf_20261020_211902_6733ff19-fbdf-4638-95ff-d59af44581eb_min.webp',
+    coverAlt: 'Shipping invoices and a burgundy folder on an oak desk in a trading company office',
+    secondaryImage:
+      '/assets/images/case-studies/6ad7db8230eccb39432c6d5c_hf_20261020_211904_a4aff4a4-05f1-4ff0-95e4-60116a325ad5_min.webp',
+    secondaryAlt: 'Consolidated ledger and trading stock reports on a studio desk',
+    primaryMetric: { value: '9 days', label: 'Month end close, down from 24' },
+    metrics: [
+      { value: '9 days', label: 'Month end close, down from 24' },
+      { value: '4', label: 'Companies on one ledger' },
+      { value: 'AED 1.2M', label: 'Overdue receivables collected' },
+    ],
+    inShort:
+      'A Dubai trading group with four companies and three ledgers. We moved them onto one chart of accounts and now close every month by the ninth working day.',
+    challenge: [
+      'The group had grown from one trading company into four: a mainland company, two free zone companies and a holding company. Each kept its own books in a different system, and intercompany balances never agreed.',
+      'Management accounts arrived three to four weeks after month end, so the owners made stock and pricing decisions on numbers that were already a month old. The bank asked for consolidated figures at renewal, and the finance team needed six weeks to produce them.',
+    ],
+    whatWeDid: [
+      'Moved all four companies onto one cloud ledger with a shared chart of accounts.',
+      'Rebuilt the opening balances and agreed every intercompany account back to January.',
+      'Set weekly bank and card reconciliations, with receipts captured on the day.',
+      'Wrote a close checklist with an owner and a due day for every task.',
+      'Added a one page cash note to the monthly pack, written for the owners, not for accountants.',
+    ],
+    outcome: [
+      'The group now closes every month by the ninth working day, with consolidated figures in the same pack. Intercompany balances agree at every month end without manual adjustments.',
+      'At the next bank renewal the consolidated accounts were ready on the day they were requested, and the facility was renewed on the existing terms. Overdue receivables older than 90 days fell by AED 1.2M within two quarters, because the owners could finally see them.',
+    ],
+    quotation: 'For the first time, the bank saw the same numbers we did, on the same day.',
+    attribution: 'Finance director, family owned trading group',
+    teamSummary: 'Leo Brandt, Head of Accounting, with Sara Lindqvist, Managing Partner',
+    practicesSummary: 'Accounting',
+    relatedPeople: ['leo-brandt', 'sara-lindqvist'],
+    relatedServices: ['accounting'],
+    seo: {
+      title: 'A trading group that now closes by the ninth | Vika Case Studies',
+      description: 'Month end close reduced from 24 working days to 9 across four UAE trading companies.',
+    },
+  },
+  {
+    id: 'cs-software-group',
+    slug: 'software-group-first-corporate-tax-return',
+    client: 'UK software company with a Dubai subsidiary',
+    sector: 'Software',
+    location: 'UAE and UK',
+    year: '2025',
+    engagement: 'Seven months',
+    practice: 'Tax',
+    title: "A software group's first UAE corporate tax return",
+    summary: 'First UAE corporate tax return filed three weeks early, with transfer pricing documented in both countries.',
+    coverImage:
+      '/assets/images/case-studies/6ad7db8330eccb39432c6db6_hf_20261020_211902_7ded3acf-edf4-4eb0-9ef1-775e38b2f518_min.webp',
+    coverAlt: 'Laptop with a tax computation beside a burgundy folder on an oak desk',
+    secondaryImage:
+      '/assets/images/case-studies/6ad7db8430eccb39432c6dd4_hf_20261020_211901_b0031564-f47d-40de-90d0-5cc30d5c059c_min.webp',
+    secondaryAlt: 'UK software company with a Dubai subsidiary working session',
+    primaryMetric: { value: '3 weeks', label: 'Filed ahead of the deadline' },
+    metrics: [
+      { value: '3 weeks', label: 'Filed ahead of the deadline' },
+      { value: '2', label: 'Countries on one tax calendar' },
+      { value: '0', label: 'Late filings since' },
+    ],
+    inShort:
+      'A London software company opened a Dubai subsidiary. We registered it, priced the services between the two companies and filed its first corporate tax return early.',
+    challenge: [
+      'The parent company in London had opened a Dubai subsidiary to serve Gulf customers. Staff, contracts and invoices moved between the two companies, but nobody had agreed how the services between them should be priced or documented.',
+      'The subsidiary\'s first corporate tax return was due nine months after its first financial year end. VAT registration had been missed in the first quarter, and the UK team was unsure what the UAE rules meant for the group.',
+    ],
+    whatWeDid: [
+      'Registered the subsidiary for VAT and corporate tax, and settled the late VAT registration with the authority.',
+      'Mapped every flow of staff time, software licences and cash between the two companies.',
+      'Set a cost plus price for the services between them and documented it for both tax authorities.',
+      'Put the UAE and UK deadlines for both companies on one calendar.',
+      'Prepared the return from closed books and walked the UK board through it before filing.',
+    ],
+    outcome: [
+      'The first UAE corporate tax return was filed three weeks before its deadline, with the related party disclosures in place. The UK transfer pricing file now matches the UAE position, so both companies tell the same story.',
+      'The group now sees every VAT and corporate tax date for both countries in one place, and has not missed a deadline since.',
+    ],
+    quotation: 'We stopped guessing what the UAE rules meant for us. Now we read the summary and approve the return.',
+    attribution: 'Chief financial officer, software company',
+    teamSummary: 'Rami Nassar, Tax Partner, with Maya Iyer, Senior Manager, Tax',
+    practicesSummary: 'Tax',
+    relatedPeople: ['rami-nassar', 'maya-iyer'],
+    relatedServices: ['tax'],
+    seo: {
+      title: "A software group's first UAE corporate tax return | Vika Case Studies",
+      description: 'First UAE corporate tax return filed three weeks early with aligned UK-UAE transfer pricing.',
+    },
+  },
+  {
+    id: 'cs-logistics-audit',
+    slug: 'free-zone-logistics-audit',
+    client: 'Free zone logistics company',
+    sector: 'Logistics',
+    location: 'UAE',
+    year: '2025',
+    engagement: 'Annual, third year',
+    practice: 'Audit',
+    title: 'A free zone audit signed in seven weeks',
+    summary: 'Audit report signed seven weeks after year end, in time for the licence renewal.',
+    coverImage:
+      '/assets/images/case-studies/6ad7db8530eccb39432c6ddf_hf_20261020_211903_372bdc11-810e-4fe6-9319-de7e72a9290f_min.webp',
+    coverAlt: 'Office overlooking a free zone warehouse, with box files on the table',
+    secondaryImage:
+      '/assets/images/case-studies/6ad7db8530eccb39432c6ddc_hf_20261020_211902_67fe88fd-1789-411b-8aff-87ed98a67e08_min.webp',
+    secondaryAlt: 'Free zone logistics audit documentation on a neutral desk',
+    primaryMetric: { value: '7 weeks', label: 'Year end to signed report' },
+    metrics: [
+      { value: '7 weeks', label: 'Year end to signed report' },
+      { value: '11 days', label: 'Finance team time on the audit' },
+      { value: '1 month', label: 'Licence renewed early' },
+    ],
+    inShort:
+      'A logistics company in a Dubai free zone kept renewing its licence late because its audit ran late. We moved the work into the year and signed in seven weeks.',
+    challenge: [
+      'The company\'s free zone licence renewal depends on audited accounts. For two years running the audit had dragged into the fourth month after year end, and the licence was renewed with days to spare.',
+      'Each year the previous auditor sent new requests in the final weeks, and the finance team of three spent most of the first quarter answering them.',
+    ],
+    whatWeDid: [
+      'Agreed the timetable and the full request list in the first month of the financial year.',
+      'Tested controls over freight billing and payments during the year, not after it.',
+      'Ran fieldwork remotely in the two weeks after year end, with one visit to the warehouse for the stock count.',
+      'Ranked the findings in the management letter by their cost to the business.',
+    ],
+    outcome: [
+      'The audit report was signed seven weeks after year end, and the licence was renewed a month early. The finance team spent eleven days on audit requests, down from most of a quarter.',
+      'Three findings on freight billing were fixed before the next year started, recovering revenue that had been going uninvoiced.',
+    ],
+    quotation: 'The audit stopped being the thing we dreaded every March.',
+    attribution: 'Managing director, logistics company',
+    teamSummary: 'Hannah Okoye, Audit Partner, with Tomas Reyes, Senior Manager, Audit',
+    practicesSummary: 'Audit',
+    relatedPeople: ['hannah-okoye', 'tomas-reyes'],
+    relatedServices: ['audit'],
+    seo: {
+      title: 'A free zone audit signed in seven weeks | Vika Case Studies',
+      description: 'Statutory audit completed seven weeks after year end for a Dubai free zone logistics business.',
+    },
+  },
+  {
+    id: 'cs-hospitality-group',
+    slug: 'hospitality-group-dubai-london',
+    client: 'Hospitality group, Dubai and London',
+    sector: 'Hospitality',
+    location: 'UAE and UK',
+    year: '2026',
+    engagement: 'Ongoing since 2023',
+    practice: 'Accounting',
+    title: 'One set of numbers for a group in two countries',
+    summary: 'Eleven companies in two countries report on one calendar, with an investor pack ten working days after month end.',
+    coverImage:
+      '/assets/images/case-studies/6ad7db8530eccb39432c6de5_hf_20261020_211903_09ff5d81-8fb4-4e73-acc3-38c9e8c25a9e_min.webp',
+    coverAlt: 'Hotel lobby with a stone floor, oak reception desk and burgundy armchair',
+    secondaryImage:
+      '/assets/images/case-studies/6ad7db8530eccb39432c6e09_hf_20261020_211903_269dcfbd-2bf2-48a8-bc99-de377321232f_min.webp',
+    secondaryAlt: 'Hospitality group, Dubai and London',
+    primaryMetric: { value: '10 days', label: 'Month end to investor pack' },
+    metrics: [
+      { value: '10 days', label: 'Month end to investor pack' },
+      { value: '11', label: 'Companies in two countries' },
+      { value: '4 weeks', label: 'Sooner audit sign off' },
+    ],
+    inShort:
+      'A restaurant and hotel group with eleven companies in Dubai and London. We keep the books and file the tax in both countries, so the board sees one set of numbers.',
+    challenge: [
+      'The group runs restaurants and two small hotels through eleven companies, seven in the UAE and four in the UK. Each country had its own bookkeeper and its own tax adviser, and the board pack was assembled by hand from both.',
+      'Investors received figures six weeks after quarter end, and the two countries used different charts of accounts, so like for like comparisons between sites were impossible.',
+    ],
+    whatWeDid: [
+      'Took over the books for all eleven companies on one chart of accounts, with tracking by site.',
+      'Moved UAE and UK payroll, VAT and corporate tax onto one calendar, run by one team.',
+      'Built a monthly investor pack with consolidated results and a page for every site.',
+      'Prepared year end files so the group\'s auditors in both countries could start on day one. We do not audit companies whose books we keep.',
+    ],
+    outcome: [
+      'The board now receives one pack ten working days after month end, with every site measured the same way in both countries. Investors receive quarterly figures in two weeks instead of six.',
+      'Every return for every company is filed early, and the auditors in both countries signed their reports four weeks sooner than the year before.',
+    ],
+    quotation: 'One firm, one calendar and one set of numbers. The board now argues about the business, not the figures.',
+    attribution: 'Group finance director, hospitality group',
+    teamSummary: 'Sara Lindqvist, Leo Brandt, Rami Nassar and Maya Iyer',
+    practicesSummary: 'Accounting and tax, in the UAE and the UK',
+    relatedPeople: ['sara-lindqvist', 'leo-brandt', 'rami-nassar', 'maya-iyer'],
+    relatedServices: ['accounting', 'tax'],
+    seo: {
+      title: 'One set of numbers for a group in two countries | Vika Case Studies',
+      description: 'Eleven UAE and UK hospitality entities consolidated onto one monthly reporting calendar.',
+    },
+  },
+];
