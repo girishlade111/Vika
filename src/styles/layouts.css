@@ -73,13 +73,16 @@
   min-height: 0;
   overflow: hidden;
 }
-.practices_item.is-open .practices_detail {
+.practices_item.is-open .practices_detail,
+.statement-practices_details.is-open .statement-practices_reveal {
+  height: auto;
   grid-template-rows: 1fr;
 }
 .practices_icon.is-plus {
   transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.practices_item.is-open .practices_icon.is-plus {
+.practices_item.is-open .practices_icon.is-plus,
+.statement-practices_details.is-open .practices_icon.is-plus {
   transform: rotate(45deg);
 }
 
