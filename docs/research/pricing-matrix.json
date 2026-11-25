@@ -1,0 +1,55 @@
+{
+  "currencies": ["AED", "GBP"],
+  "billingPeriods": ["Monthly", "Yearly"],
+  "yearlyMultiplierMonths": 10,
+  "retainers": [
+    {
+      "slug": "essential",
+      "name": "Essential",
+      "AED": { "monthly": 2500, "yearly": 25000 },
+      "GBP": { "monthly": 550, "yearly": 5500 },
+      "noticeMonths": 3
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "highlighted": true,
+      "badge": "Most chosen",
+      "AED": { "monthly": 6000, "yearly": 60000 },
+      "GBP": { "monthly": 1300, "yearly": 13000 },
+      "noticeMonths": 3
+    },
+    {
+      "slug": "group",
+      "name": "Group",
+      "AED": { "monthly": 12000, "yearly": 120000 },
+      "GBP": { "monthly": 2650, "yearly": 26500 },
+      "noticeMonths": 6
+    }
+  ],
+  "projects": [
+    {
+      "slug": "tax-registration",
+      "name": "Tax registration",
+      "AED": { "fixed": 3000 },
+      "GBP": { "fixed": 650 }
+    },
+    {
+      "slug": "statutory-audit",
+      "name": "Statutory audit",
+      "highlighted": true,
+      "AED": { "fixed": 18000 },
+      "GBP": { "fixed": 3950 }
+    },
+    {
+      "slug": "due-diligence",
+      "name": "Due diligence",
+      "AED": { "fixed": 25000 },
+      "GBP": { "fixed": 5500 }
+    }
+  ],
+  "vatRates": {
+    "UAE": "5%",
+    "UK": "20%"
+  }
+}

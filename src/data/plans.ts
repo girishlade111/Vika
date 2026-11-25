@@ -41,7 +41,7 @@ export const PLANS: Plan[] = [
     addOns: 'Payroll from AED 500 (£110) a month. Transactions above 150 at AED 10 (£2) each.',
     terms: 'Monthly in advance, or 10 months for the price of 12 when billed yearly. Three months notice.',
     relatedServices: ['accounting', 'tax'],
-    relatedQuestions: ['how-fees-work', 'plus-vat', 'pay-yearly'],
+    relatedQuestions: ['how-fees-work', 'are-fees-plus-vat', 'pay-for-the-year-up-front'],
     seo: {
       title: 'Essential Plan | Vika fixed-fee pricing',
       description: 'Fixed-fee bookkeeping, VAT and corporate tax for single companies from AED 2,500 or £550 a month.',
@@ -89,7 +89,7 @@ export const PLANS: Plan[] = [
     addOns: 'Second company at AED 2,000 (£450) a month. Payroll above 40 people at AED 40 (£9) a head.',
     terms: 'Monthly in advance, or 10 months for the price of 12 when billed yearly. Three months notice.',
     relatedServices: ['accounting', 'tax'],
-    relatedQuestions: ['how-fees-work', 'grow-during-year', 'pay-yearly'],
+    relatedQuestions: ['how-fees-work', 'what-happens-if-we-grow', 'pay-for-the-year-up-front'],
     seo: {
       title: 'Growth Plan | Vika fixed-fee pricing',
       description: 'Monthly close by the tenth, payroll for up to 40 staff and partner review from AED 6,000 or £1,300 a month.',
@@ -135,7 +135,7 @@ export const PLANS: Plan[] = [
     addOns: 'Each company above five at AED 1,500 (£330) a month.',
     terms: 'Monthly in advance, or 10 months for the price of 12 when billed yearly. Six months notice.',
     relatedServices: ['accounting', 'tax'],
-    relatedQuestions: ['outside-uae-uk', 'notice-period', 'pay-yearly'],
+    relatedQuestions: ['work-outside-uae-and-uk', 'what-is-the-notice-period', 'pay-for-the-year-up-front'],
     seo: {
       title: 'Group Plan | Vika fixed-fee pricing',
       description: 'Consolidated accounting, VAT groups and board packs across UAE and UK entities from AED 12,000 or £2,650 a month.',
@@ -173,7 +173,7 @@ export const PLANS: Plan[] = [
     addOns: 'Each extra company registered in the same week at AED 1,000 (£220).',
     terms: 'Half at the start, half on delivery.',
     relatedServices: ['tax'],
-    relatedQuestions: ['how-fees-work', 'plus-vat'],
+    relatedQuestions: ['how-fees-work', 'are-fees-plus-vat'],
     seo: {
       title: 'Tax registration | Vika project pricing',
       description: 'Fixed-fee VAT and corporate tax registration in the UAE and UK at AED 3,000 or £650.',
@@ -216,7 +216,7 @@ export const PLANS: Plan[] = [
     addOns: 'Arabic translation at AED 1,500. Group audits quoted per company.',
     terms: 'Fee fixed at planning. Half at planning, half on the signed report.',
     relatedServices: ['audit'],
-    relatedQuestions: ['audit-same-books', 'audit-not-in-plan'],
+    relatedQuestions: ['audit-companies-whose-books-you-keep', 'why-is-audit-not-part-of-plan'],
     seo: {
       title: 'Statutory audit | Vika project pricing',
       description: 'Independent statutory audits for UAE free zone, mainland and UK companies from AED 18,000 or £3,950.',
@@ -255,7 +255,7 @@ export const PLANS: Plan[] = [
     addOns: 'Tax due diligence alongside a deal at AED 8,000 (£1,750).',
     terms: 'Half at the start, half on delivery.',
     relatedServices: ['audit', 'tax'],
-    relatedQuestions: ['how-fees-work', 'prices-not-a-quote'],
+    relatedQuestions: ['how-fees-work', 'are-prices-a-quote'],
     seo: {
       title: 'Due diligence | Vika project pricing',
       description: 'Financial due diligence for buyers and investors from AED 25,000 or £5,500.',

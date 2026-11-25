@@ -63,7 +63,7 @@ export const SERVICES: Service[] = [
     ],
     leadPersonSlug: 'leo-brandt',
     relatedPlans: ['essential', 'growth', 'group'],
-    relatedQuestions: ['accounting-software', 'join-mid-year', 'who-works-with-me'],
+    relatedQuestions: ['which-accounting-software', 'take-over-halfway-through-year', 'who-will-i-actually-work-with'],
     relatedDeadlines: ['uae-vat-q3-2026', 'uk-companies-house-2026'],
     relatedCaseStudies: ['trading-group-monthly-close', 'hospitality-group-dubai-london'],
     seo: {
@@ -133,8 +133,8 @@ export const SERVICES: Service[] = [
     ],
     leadPersonSlug: 'rami-nassar',
     relatedPlans: ['tax-registration', 'essential', 'growth', 'group'],
-    relatedQuestions: ['how-fees-work', 'outside-uae-uk'],
-    relatedDeadlines: ['uae-vat-q3-2026', 'uae-ct-2026', 'uk-vat-q3-2026', 'uk-ct600-2026'],
+    relatedQuestions: ['how-fees-work', 'work-outside-uae-and-uk'],
+    relatedDeadlines: ['uae-vat-q3-2026', 'uae-corporate-tax-2026', 'uk-vat-q3-2026', 'uk-ct600-2026'],
     relatedCaseStudies: ['software-group-first-corporate-tax-return', 'hospitality-group-dubai-london'],
     seo: {
       title: 'Tax | Vika accounting, tax and audit',
@@ -203,7 +203,7 @@ export const SERVICES: Service[] = [
     ],
     leadPersonSlug: 'hannah-okoye',
     relatedPlans: ['statutory-audit', 'due-diligence'],
-    relatedQuestions: ['audit-same-books', 'audit-not-in-plan'],
+    relatedQuestions: ['audit-companies-whose-books-you-keep', 'why-is-audit-not-part-of-plan'],
     relatedDeadlines: ['uk-companies-house-2026'],
     relatedCaseStudies: ['free-zone-logistics-audit'],
     seo: {
