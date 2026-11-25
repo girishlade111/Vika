@@ -1,5 +1,3 @@
-import type { PartnerAvailability } from './types_booking_helper';
-
 export interface BookingPartnerConfig {
   personSlug: string;
   name: string;
