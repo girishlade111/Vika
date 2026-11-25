@@ -1,0 +1,86 @@
+export const SITE_CONFIG = {
+  brandName: 'Vika',
+  tagline: 'Accounting, tax and audit',
+  subTagline: 'Dubai and London since 2016',
+  email: 'hello@vika.example',
+  wordmarkDark: '/assets/brand/6ad8dacfc4794af93ead0f44_vika-wordmark.svg',
+  wordmarkLight: '/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg',
+  checkIcon: '/assets/brand/6ad8d94d7fd4b7fdf5bbf773_vika-check.svg',
+  demoMode: import.meta.env.VITE_DEMO_MODE !== 'false',
+  enableExploreVika: import.meta.env.VITE_ENABLE_EXPLORE_VIKA !== 'false',
+  enableNavigationDock: true,
+  contactEndpoint: import.meta.env.VITE_CONTACT_ENDPOINT || '',
+  newsletterEndpoint: import.meta.env.VITE_NEWSLETTER_ENDPOINT || '',
+  bookingEndpoint: import.meta.env.VITE_BOOKING_ENDPOINT || '',
+  defaultCurrency: 'AED' as const,
+  defaultBilling: 'Monthly' as const,
+  legalNotice:
+    '© 2026 Vika Accounting LLC, Dubai, licence 000000. Vika Audit Ltd, London, registered to carry on audit work, number C000000.',
+  demoDisclaimer:
+    'Vika is a fictional firm made for this template. Names, numbers and figures are placeholders.',
+  attribution: {
+    designerName: 'Margined',
+    designerUrl: 'https://www.margined.co/',
+    templateUrl: 'https://webflow.com/templates/html/vika-website-template',
+  },
+  studioStats: [
+    { value: '340', label: 'companies on our books', name: 'Companies on our books' },
+    { value: '2,100', label: 'returns filed last year', name: 'Returns filed last year' },
+    { value: '10', label: 'working days to a closed month', name: 'Working days to a closed month' },
+    { value: '26', label: 'people in Dubai and London', name: 'People in Dubai and London' },
+  ],
+  timelineMoments: [
+    {
+      year: '2016',
+      clientsCount: '4',
+      clientsLabel: '4 clients',
+      barWidthPercent: 4,
+      description: 'Sara opens Vika in a shared office in Dubai, with four clients and one rule: close by the tenth.',
+    },
+    {
+      year: '2019',
+      clientsCount: '60',
+      clientsLabel: '60 clients',
+      barWidthPercent: 18,
+      description: 'The London office opens to look after the UK companies of our Gulf clients.',
+    },
+    {
+      year: '2023',
+      clientsCount: '210',
+      clientsLabel: '210 clients',
+      barWidthPercent: 62,
+      description: 'Corporate tax arrives in the UAE. Rami joins to build the tax practice.',
+    },
+    {
+      year: '2024',
+      clientsCount: '270',
+      clientsLabel: '270 clients',
+      barWidthPercent: 79,
+      description: 'The audit practice opens as a separate team, led by Hannah from London.',
+    },
+    {
+      year: '2026',
+      clientsCount: '340',
+      clientsLabel: '340 clients',
+      barWidthPercent: 100,
+      description: '340 companies, 26 people, two offices and the same rule as day one.',
+    },
+  ],
+  coreRules: [
+    {
+      number: '01',
+      title: 'Closed by the tenth',
+      description: 'Numbers are only useful while they are recent. Every client’s month is closed by the tenth working day.',
+    },
+    {
+      number: '02',
+      title: 'Nothing filed unseen',
+      description: 'We never file a return you have not read and approved, however close the deadline.',
+    },
+    {
+      number: '03',
+      title: 'Fixed fees, said early',
+      description: 'You know what the year will cost before it starts. If the work changes, we say so before we do it.',
+    },
+  ],
+};
