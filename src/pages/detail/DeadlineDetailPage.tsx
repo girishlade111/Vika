@@ -29,7 +29,7 @@ export function DeadlineDetailPage() {
                 Index
               </Link>
               <span aria-hidden="true">/</span>
-              <Link to="/services#calendar" className="page-header_crumb-link">
+              <Link to="/#calendar" className="page-header_crumb-link">
                 Calendar
               </Link>
             </p>

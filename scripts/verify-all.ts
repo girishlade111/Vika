@@ -218,7 +218,11 @@ async function main() {
         routeResults.push(res);
       }
       report.routes = routeResults;
-      console.log(`Routes complete: ${routeResults.filter((r) => r.status === 'PASS').length}/${routeResults.length} passed.`);
+      const failedRoutesNow = routeResults.filter((r) => r.status === 'FAIL');
+      console.log(`Routes complete: ${routeResults.length - failedRoutesNow.length}/${routeResults.length} passed.`);
+      if (failedRoutesNow.length > 0) {
+        console.log('FAILED ROUTE DETAILS:', JSON.stringify(failedRoutesNow, null, 2));
+      }
 
       // 2. Capture computed styles on Classic Home at 1440x900
       await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
@@ -275,12 +279,12 @@ async function main() {
         gbpBody.includes('£550') &&
         gbpYearlyBody.includes('£5,500');
 
-      // Test Deadline UAE -> UK tab
-      await page.goto(`${BASE_URL}/services`, { waitUntil: 'load' });
-      await page.click('.tabs_link:has-text("UK")');
+      // Test Deadline UAE -> UK tab (on Classic Home #calendar)
+      await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
+      await page.locator('#calendar .tabs_link:has-text("UK")').click();
       await page.waitForTimeout(150);
       const ukDeadlineVisible = await page.evaluate(
-        `document.body.innerText.includes('HM Revenue') || document.body.innerText.includes('CT600')`,
+        `document.querySelector('#calendar')?.innerText.includes('HMRC') || document.querySelector('#calendar')?.innerText.includes('CT600')`,
       );
       interactive.calendarJurisdictionToggle = Boolean(ukDeadlineVisible);
 
