@@ -1,0 +1,13 @@
+{
+  "fonts": [
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba9b9b35518892117602e_FamiljenGrotesk-SemiBold.woff",
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba9b933101e42e8bcca03_FamiljenGrotesk-Bold.woff",
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba9b951dd02105152b8f6_FamiljenGrotesk-Regular.woff",
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba9b9b6943178c27d0ba4_FamiljenGrotesk-Medium.woff",
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76/6adba9ba96755381884be122_DMMono-Regular.woff"
+  ],
+  "videos": [
+    "https://cdn.prod.website-files.com/6ad70fa4dbb1938da989fd76%2F6ad880b358f73cbbb9142e09_vika-cinematic-hero-meeting_1_mp4.mp4"
+  ],
+  "css": []
+}
