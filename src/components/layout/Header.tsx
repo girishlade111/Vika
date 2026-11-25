@@ -149,7 +149,7 @@ export function Header() {
               <Link aria-label="Vika home" to={homeRoute} className="navbar_brand" onClick={closeMenu}>
                 <img
                   src={SITE_CONFIG.wordmarkLight}
-                  loading="lazy"
+                  loading="eager"
                   alt="Vika"
                   className="navbar_logo"
                 />

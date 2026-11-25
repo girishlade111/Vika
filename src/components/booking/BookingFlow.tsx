@@ -156,7 +156,7 @@ export function BookingFlow({
         </p>
         <p className="text-size-small text-color-secondary" style={{ marginBottom: '1.25rem' }}>
           {SITE_CONFIG.demoMode
-            ? `Reference ${referenceId}. This is a local demonstration fixture — no external calendar invite has been sent. Connect VITE_BOOKING_ENDPOINT to enable live scheduling.`
+            ? `Reference ${referenceId}. This is a local demonstration fixture: no external calendar invite has been sent. Connect VITE_BOOKING_ENDPOINT to enable live scheduling.`
             : `Reference ${referenceId}. If the time no longer suits, reply to the invitation and we will move it.`}
         </p>
         <VikaButton
