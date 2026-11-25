@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-11-25T11:19:45.499Z",
+  "executedAt": "2026-11-25T11:25:28.420Z",
   "routeCount": 66,
   "routes": [
     {
@@ -7,20 +7,11 @@
       "title": "Vika | Accounting, tax and audit studio in Dubai and London",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/images/insights/6ad74ed70180ecbacfafd39a_hf_20261020_105653_0814399d-5b22-4e1a-8262-78717b01a012_min.webp",
-        "/assets/images/case-studies/6ad7db8330eccb39432c6d7e_hf_20261020_211902_6733ff19-fbdf-4638-95ff-d59af44581eb_min.webp",
-        "/assets/images/case-studies/6ad7db8330eccb39432c6db6_hf_20261020_211902_7ded3acf-edf4-4eb0-9ef1-775e38b2f518_min.webp",
-        "/assets/images/case-studies/6ad7db8530eccb39432c6ddf_hf_20261020_211903_372bdc11-810e-4fe6-9319-de7e72a9290f_min.webp",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39a_hf_20261020_105653_0814399d-5b22-4e1a-8262-78717b01a012_min.webp",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39d_hf_20261020_105655_0524c85e-01bc-443b-b4b9-f24330481881_min.webp",
-        "/assets/images/insights/6ad74ed60180ecbacfafd389_hf_20261020_105655_893b4d04-ae7b-4341-87ad-9241f1b99c41_min.webp",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39d_hf_20261020_105655_0524c85e-01bc-443b-b4b9-f24330481881_min.webp"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 5,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/studio",
@@ -978,7 +969,7 @@
       "reference": "docs/reference/classic/home-1440-full.png",
       "local": "docs/testing/screenshots/classic-home.png",
       "matchPercent": 98.09,
-      "diffPixels": 87995
+      "diffPixels": 87836
     },
     {
       "route": "/studio",
@@ -991,8 +982,8 @@
       "route": "/contact",
       "reference": "docs/reference/classic/contact-1440-full.png",
       "local": "docs/testing/screenshots/classic-contact.png",
-      "matchPercent": 95.18,
-      "diffPixels": 203785
+      "matchPercent": 95.19,
+      "diffPixels": 203769
     },
     {
       "route": "/services",
@@ -1020,7 +1011,7 @@
       "reference": "docs/reference/cinematic/cinematic__home-cinematic-1440-full.png",
       "local": "docs/testing/screenshots/cinematic-home.png",
       "matchPercent": 87.26,
-      "diffPixels": 587284
+      "diffPixels": 586961
     },
     {
       "route": "/statement/home-statement",

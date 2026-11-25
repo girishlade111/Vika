@@ -75,41 +75,47 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
   page.on('console', onConsole);
   page.on('pageerror', onPageError);
 
-  await page.goto(`${BASE_URL}${route}`, { waitUntil: 'domcontentloaded', timeout: 10000 });
+  await page.goto(`${BASE_URL}${route}`, { waitUntil: 'load', timeout: 12000 });
   await page.waitForSelector('h1', { timeout: 5000 }).catch(() => {});
   await page.evaluate('document.fonts.ready');
-  await page.waitForTimeout(100);
 
-  // Scroll through viewport steps so every lazy-loaded image is triggered cleanly
-  for (const frac of [0.25, 0.5, 0.75, 1.0, 0]) {
-    await page.evaluate(`window.scrollTo(0, document.body.scrollHeight * ${frac})`);
-    await page.waitForTimeout(70);
-  }
-  await page.waitForTimeout(100);
+  // Ensure all visible & lazy images on the page are scrolled into view and decoded
+  const broken = (await page.evaluate(`(async () => {
+    const imgs = Array.from(document.querySelectorAll('img')).filter((img) => {
+      const style = window.getComputedStyle(img);
+      if (style.display === 'none' || style.visibility === 'hidden') return false;
+      if (img.closest('.navbar_menu:not(.is-open)')) return false;
+      return true;
+    });
+    for (const img of imgs) {
+      if (!img.complete) {
+        img.loading = 'eager';
+        img.scrollIntoView({ behavior: 'instant', block: 'center' });
+        await new Promise((resolve) => {
+          const timer = setTimeout(resolve, 3000);
+          img.addEventListener('load', () => { clearTimeout(timer); resolve(); }, { once: true });
+          img.addEventListener('error', () => { clearTimeout(timer); resolve(); }, { once: true });
+        });
+      }
+    }
+    window.scrollTo(0, 0);
+    return imgs
+      .filter((img) => !img.complete || img.naturalWidth === 0)
+      .map((img) => img.getAttribute('src') || img.alt);
+  })()`)) as string[];
 
   const metrics = (await page.evaluate(`(() => {
-    const imgs = Array.from(document.querySelectorAll('img'));
-    const broken = imgs
-      .filter((img) => {
-        const style = window.getComputedStyle(img);
-        if (style.display === 'none' || style.visibility === 'hidden') return false;
-        if (img.closest('.navbar_menu:not(.is-open)')) return false;
-        return !img.complete || img.naturalWidth === 0;
-      })
-      .map((img) => img.getAttribute('src') || img.alt);
     const overflow = Math.max(0, document.documentElement.scrollWidth - window.innerWidth);
     const h1Count = document.querySelectorAll('h1').length;
     const loadedFonts = Array.from(document.fonts).filter((f) => f.status === 'loaded').length;
     return {
       title: document.title,
-      broken,
       overflow,
       h1Count,
       loadedFonts
     };
   })()`)) as {
     title: string;
-    broken: string[];
     overflow: number;
     h1Count: number;
     loadedFonts: number;
@@ -121,7 +127,7 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
   const passed =
     consoleErrors.length === 0 &&
     pageErrors.length === 0 &&
-    metrics.broken.length === 0 &&
+    broken.length === 0 &&
     metrics.overflow <= 1 &&
     metrics.h1Count === 1;
 
@@ -130,7 +136,7 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
     title: metrics.title,
     consoleErrors,
     pageErrors,
-    brokenImages: metrics.broken,
+    brokenImages: broken,
     horizontalOverflowPx: metrics.overflow,
     h1Count: metrics.h1Count,
     fontsLoaded: metrics.loadedFonts,
