@@ -1,0 +1,225 @@
+/* Layout & Interactive State Overrides for React */
+
+/* Fullscreen menu open state */
+.navbar_menu {
+  display: none;
+  opacity: 0;
+}
+.navbar_menu.is-open {
+  display: block;
+  opacity: 1;
+}
+
+/* Floating bottom navigation dock */
+.navbar_pill {
+  transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1), transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.4s;
+}
+.navbar_pill.is-visible {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+.navbar_pill:not(.is-visible) {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(16px);
+  pointer-events: none;
+}
+
+/* Explore Vika floating tour panel */
+.tour_list {
+  display: none;
+}
+.tour_list.is-open {
+  display: block;
+}
+.tour_plus-line {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.25s;
+}
+.tour_toggle.is-open .tour_plus-line.is-vertical {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+/* Pricing region & billing visibility */
+.price_uk,
+.price_year {
+  display: none;
+}
+[data-pricing-region="UK"] .price_ae {
+  display: none;
+}
+[data-pricing-region="UK"] .price_uk {
+  display: block;
+}
+[data-pricing-billing="Yearly"] .price_month {
+  display: none;
+}
+[data-pricing-billing="Yearly"] .price_year {
+  display: block;
+}
+
+/* Statement Home Expandable Practices Accordion */
+.practices_row.is-summary {
+  cursor: pointer;
+}
+.practices_detail {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+  overflow: hidden;
+}
+.practices_detail-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+.practices_item.is-open .practices_detail {
+  grid-template-rows: 1fr;
+}
+.practices_icon.is-plus {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.practices_item.is-open .practices_icon.is-plus {
+  transform: rotate(45deg);
+}
+
+/* Shared FAQ Accordion */
+.questions_question {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+}
+.questions_answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  overflow: hidden;
+}
+.questions_answer-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+.questions_item.is-open .questions_answer {
+  grid-template-rows: 1fr;
+}
+.questions_icon {
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.questions_item.is-open .questions_icon {
+  transform: rotate(45deg);
+}
+
+/* Form Pill Controls (Semantic inputs inside pill labels) */
+.form_radio.is-pill input[type="radio"],
+.form_checkbox.is-pill input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+.form_radio.is-pill.is-active,
+.form_checkbox.is-pill.is-active {
+  border-color: var(--accent-color--accent-primary);
+  background-color: var(--accent-color--accent-primary);
+  color: var(--text-color--text-alternate);
+}
+.form_radio.is-pill:focus-within,
+.form_checkbox.is-pill:focus-within {
+  outline: 2px solid var(--accent-color--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Booking Slots & Partner Selection */
+.booking_slot-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color--border-secondary);
+  border-radius: var(--_layout---radius--round);
+  background: transparent;
+  color: var(--text-color--text-primary);
+  font-family: var(--_typography---font--primary);
+  font-size: var(--_typography---size-scale--size-14-half);
+  font-weight: var(--_typography---weight--medium);
+  cursor: pointer;
+  transition: background-color 0.25s cubic-bezier(0.22, 1, 0.36, 1), color 0.25s, border-color 0.25s;
+}
+.booking_slot-btn:hover {
+  border-color: var(--accent-color--accent-primary);
+}
+.booking_slot-btn.is-active {
+  background-color: var(--accent-color--accent-primary);
+  border-color: var(--accent-color--accent-primary);
+  color: var(--accent-color--accent-text);
+}
+.booking_slot-btn:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+/* Booking Modal / Drawer Overlay */
+.booking-modal_backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 95;
+  background-color: rgba(15, 15, 14, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.booking-modal_panel {
+  width: 100%;
+  max-width: 52rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: var(--background-color--background-primary);
+  color: var(--text-color--text-primary);
+  border-radius: var(--_layout---radius--large);
+  border: 1px solid var(--border-color--border-primary);
+  padding: 2.5rem;
+  position: relative;
+}
+
+/* Case board hover image preview on Statement Home */
+.case-ledger_row.is-board {
+  position: relative;
+}
+.case-ledger_row.is-board .case-board_image {
+  transition: opacity 0.35s cubic-bezier(0.22, 1, 0.36, 1), transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.case-ledger_row.is-board:hover .case-board_image {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Tabs active state */
+.tabs_link {
+  cursor: pointer;
+}
+
+/* Page layout switcher active pill */
+.navbar_menu-layout.is-active,
+.tour_layout.is-active,
+.tour_page-layout.is-active {
+  border-color: var(--accent-color--accent-primary);
+  background-color: var(--accent-color--accent-primary);
+  color: var(--accent-color--accent-text);
+}
+
+/* Ensure growth bar fills cleanly */
+.growth_fill {
+  transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Prevent horizontal overflow across viewports */
+html, body, .page-wrapper {
+  overflow-x: clip;
+}

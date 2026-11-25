@@ -1,0 +1,75 @@
+/* Vika Signature Motion & Micro-interactions */
+
+/* Dual-label button hover flip + circular arrow slide */
+.button_label-wrap {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+}
+.button_label,
+.button_label-hover {
+  grid-area: 1 / 1;
+  transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.button_label-hover {
+  transform: translateY(100%);
+  opacity: 0;
+}
+.button:hover .button_label {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.button:hover .button_label-hover {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.button_arrow {
+  transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.button:hover .button_arrow {
+  transform: translate(2px, -2px);
+}
+
+/* Marquee animation for client marks & quote track */
+@keyframes vikaMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.home-clients_track {
+  display: flex;
+  width: max-content;
+  animation: vikaMarquee 36s linear infinite;
+}
+.home-clients_track:hover {
+  animation-play-state: paused;
+}
+
+/* Live office status dot pulse */
+@keyframes vikaDotPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.85); }
+}
+.navbar_dot,
+.offices_dot,
+.person-hero_dot {
+  animation: vikaDotPulse 2.6s ease-in-out infinite;
+}
+
+/* Preloader / Page reveal curtain */
+.page-reveal_component {
+  pointer-events: none;
+}
+
+/* Reduced motion compliance */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .home-clients_track {
+    animation: none;
+  }
+}
