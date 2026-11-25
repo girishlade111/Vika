@@ -15,20 +15,31 @@
   transform: translateY(100%);
   opacity: 0;
 }
-.button:hover .button_label {
+.button:hover .button_label,
+.button:focus-visible .button_label {
   transform: translateY(-100%);
   opacity: 0;
 }
-.button:hover .button_label-hover {
+.button:hover .button_label-hover,
+.button:focus-visible .button_label-hover {
   transform: translateY(0%);
   opacity: 1;
 }
 
+.button_icon {
+  transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1), right 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.button.is-icon:hover .button_icon {
+  right: calc(100% - 3rem);
+}
+.button.is-icon.is-small:hover .button_icon.is-small {
+  right: calc(100% - 2.5rem);
+}
 .button_arrow {
   transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .button:hover .button_arrow {
-  transform: translate(2px, -2px);
+  transform: translate(1px, -1px);
 }
 
 /* Marquee animation for client marks & quote track */
