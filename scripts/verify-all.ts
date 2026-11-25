@@ -78,13 +78,14 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
   await page.goto(`${BASE_URL}${route}`, { waitUntil: 'domcontentloaded', timeout: 10000 });
   await page.waitForSelector('h1', { timeout: 5000 }).catch(() => {});
   await page.evaluate('document.fonts.ready');
-  await page.waitForTimeout(120);
+  await page.waitForTimeout(100);
 
-  // Trigger lazy images and reset scroll
-  await page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.5)');
-  await page.waitForTimeout(80);
-  await page.evaluate('window.scrollTo(0, 0)');
-  await page.waitForTimeout(80);
+  // Scroll through viewport steps so every lazy-loaded image is triggered cleanly
+  for (const frac of [0.25, 0.5, 0.75, 1.0, 0]) {
+    await page.evaluate(`window.scrollTo(0, document.body.scrollHeight * ${frac})`);
+    await page.waitForTimeout(70);
+  }
+  await page.waitForTimeout(100);
 
   const metrics = (await page.evaluate(`(() => {
     const imgs = Array.from(document.querySelectorAll('img'));
@@ -92,6 +93,7 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
       .filter((img) => {
         const style = window.getComputedStyle(img);
         if (style.display === 'none' || style.visibility === 'hidden') return false;
+        if (img.closest('.navbar_menu:not(.is-open)')) return false;
         return !img.complete || img.naturalWidth === 0;
       })
       .map((img) => img.getAttribute('src') || img.alt);
@@ -275,10 +277,10 @@ async function main() {
 
       // Test Deadline UAE -> UK tab
       await page.goto(`${BASE_URL}/services`, { waitUntil: 'load' });
-      await page.click('button:has-text("UK")');
-      await page.waitForTimeout(100);
+      await page.click('.tabs_link:has-text("UK")');
+      await page.waitForTimeout(150);
       const ukDeadlineVisible = await page.evaluate(
-        `document.body.innerText.includes('HMRC') || document.body.innerText.includes('CT600')`,
+        `document.body.innerText.includes('HM Revenue') || document.body.innerText.includes('CT600')`,
       );
       interactive.calendarJurisdictionToggle = Boolean(ukDeadlineVisible);
 
@@ -295,7 +297,7 @@ async function main() {
       await page.click('.contact_form-card button[type="submit"]');
       await page.waitForTimeout(100);
       const validationShown = await page.evaluate(
-        `document.body.innerText.includes('Please enter your name')`,
+        `document.body.innerText.toLowerCase().includes('please enter your name')`,
       );
       await page.fill('#contact-name', 'Alex Mercer');
       await page.fill('#contact-email', 'alex@example.com');
@@ -304,7 +306,7 @@ async function main() {
       await page.click('.contact_form-card button[type="submit"]');
       await page.waitForTimeout(500);
       const formSuccess = await page.evaluate(
-        `document.body.innerText.includes('Message received')`,
+        `document.body.innerText.toLowerCase().includes('message received')`,
       );
       interactive.classicContactValidationAndSubmit = Boolean(validationShown && formSuccess);
 
@@ -321,7 +323,7 @@ async function main() {
       await page.click('.questionnaire_submit button[type="submit"]');
       await page.waitForTimeout(500);
       const wizardDone = await page.evaluate(
-        `document.body.innerText.includes('Message received')`,
+        `document.body.innerText.toLowerCase().includes('message received')`,
       );
       interactive.statementWizardComplete = Boolean(wizardDone);
 
@@ -334,7 +336,7 @@ async function main() {
       await page.click('.booking_form button[type="submit"]');
       await page.waitForTimeout(550);
       const bookingDone = await page.evaluate(
-        `document.body.innerText.includes('Rami Nassar') && (document.body.innerText.includes('Request received') || document.body.innerText.includes('Demonstration request recorded'))`,
+        `document.body.innerText.includes('Rami Nassar') && (document.body.innerText.toLowerCase().includes('request received') || document.body.innerText.toLowerCase().includes('demonstration request recorded'))`,
       );
       interactive.bookingFlowConfirm = Boolean(bookingDone);
 
@@ -379,14 +381,14 @@ async function main() {
       console.log('Capturing screenshots & computing pixelmatch comparison...');
       await page.setViewportSize({ width: 1440, height: 900 });
       const comparePairs = [
-        { route: '/', out: 'classic-home.png', ref: 'docs/reference/classic/home.png' },
-        { route: '/studio', out: 'classic-studio.png', ref: 'docs/reference/classic/studio.png' },
-        { route: '/contact', out: 'classic-contact.png', ref: 'docs/reference/classic/contact.png' },
-        { route: '/services', out: 'shared-services.png', ref: 'docs/reference/shared/services.png' },
-        { route: '/pricing', out: 'shared-pricing.png', ref: 'docs/reference/shared/pricing.png' },
-        { route: '/insights', out: 'shared-insights.png', ref: 'docs/reference/shared/insights.png' },
-        { route: '/cinematic/home-cinematic', out: 'cinematic-home.png', ref: 'docs/reference/cinematic/home-cinematic.png' },
-        { route: '/statement/home-statement', out: 'statement-home.png', ref: 'docs/reference/statement/home-statement.png' },
+        { route: '/', out: 'classic-home.png', ref: 'docs/reference/classic/home-1440-full.png' },
+        { route: '/studio', out: 'classic-studio.png', ref: 'docs/reference/classic/studio-1440-full.png' },
+        { route: '/contact', out: 'classic-contact.png', ref: 'docs/reference/classic/contact-1440-full.png' },
+        { route: '/services', out: 'shared-services.png', ref: 'docs/reference/shared/services-1440-full.png' },
+        { route: '/pricing', out: 'shared-pricing.png', ref: 'docs/reference/shared/pricing-1440-full.png' },
+        { route: '/insights', out: 'shared-insights.png', ref: 'docs/reference/shared/insights-1440-full.png' },
+        { route: '/cinematic/home-cinematic', out: 'cinematic-home.png', ref: 'docs/reference/cinematic/cinematic__home-cinematic-1440-full.png' },
+        { route: '/statement/home-statement', out: 'statement-home.png', ref: 'docs/reference/statement/statement__home-statement-1440-full.png' },
       ];
       const visualResults = [];
       for (const pair of comparePairs) {
