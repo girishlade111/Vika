@@ -1,0 +1,222 @@
+[
+  {
+    "path": "/401",
+    "title": "Password required | Vika accounting, tax and audit studio",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/404",
+    "title": "Page not found | Vika accounting, tax and audit studio",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/case-studies",
+    "title": "Case studies | Vika results for UAE and UK clients",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/case-studies/free-zone-logistics-audit",
+    "title": "A free zone audit signed in seven weeks | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/case-studies/hospitality-group-dubai-london",
+    "title": "One set of numbers for a group in two countries | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/case-studies/software-group-first-corporate-tax-return",
+    "title": "A software group's first UAE corporate tax return | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/case-studies/trading-group-monthly-close",
+    "title": "A trading group that now closes by the ninth | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/changelog",
+    "title": "Changelog | Vika template version history",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/cinematic/contact-cinematic",
+    "title": "Contact | Choose a partner and a time",
+    "layoutFamily": "cinematic"
+  },
+  {
+    "path": "/cinematic/home-cinematic",
+    "title": "Vika | Accounting and tax studio, Cinematic layout",
+    "layoutFamily": "cinematic"
+  },
+  {
+    "path": "/cinematic/studio-cinematic",
+    "title": "Studio | Vika people and offices, Cinematic",
+    "layoutFamily": "cinematic"
+  },
+  {
+    "path": "/contact",
+    "title": "Contact | Book a call with a Vika partner",
+    "layoutFamily": "classic"
+  },
+  {
+    "path": "/deadlines/uk-ct600-2026",
+    "title": "Company tax return for 2026 | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/",
+    "title": "Vika - Webflow HTML website template",
+    "layoutFamily": "classic"
+  },
+  {
+    "path": "/insights",
+    "title": "Insights | Notes on UAE and UK tax",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/close-the-month-in-ten-days",
+    "title": "How we close the month in ten working days | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/first-uae-corporate-tax-return",
+    "title": "First UAE corporate tax return: what to have ready | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/free-zone-audits-start-in-january",
+    "title": "Free zone audits: start in January, not in March | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/management-accounts-your-board-reads",
+    "title": "Management accounts your board will actually read | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/ten-years-of-vika",
+    "title": "Ten years of Vika, and what we would change | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/insights/uk-vat-for-gulf-companies",
+    "title": "UK VAT for Gulf companies selling into Britain | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/instructions",
+    "title": "Instructions | How to edit the Vika template",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/licenses",
+    "title": "Licenses | Fonts, images and assets in Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/overview",
+    "title": "Vika | Webflow template for accounting, tax and audit firms",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/hannah-okoye",
+    "title": "Hannah Okoye, Audit Partner | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/leo-brandt",
+    "title": "Leo Brandt, Head of Accounting | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/maya-iyer",
+    "title": "Maya Iyer, Senior Manager, Tax | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/rami-nassar",
+    "title": "Rami Nassar, Tax Partner | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/sara-lindqvist",
+    "title": "Sara Lindqvist, Managing Partner | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/people/tomas-reyes",
+    "title": "Tomas Reyes, Senior Manager, Audit | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/plans/statutory-audit",
+    "title": "Statutory audit plan | Vika fees",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/pricing",
+    "title": "Pricing | Vika fixed fees for UAE and UK companies",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/privacy-policy",
+    "title": "Privacy Policy | How Vika handles your data",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/questions/how-fees-work",
+    "title": "How do your fees work? | Vika",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/services",
+    "title": "Services | Vika accounting, tax and audit",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/services/accounting",
+    "title": "Accounting | Vika services",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/services/audit",
+    "title": "Audit | Vika services",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/services/tax",
+    "title": "Tax | Vika services",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/statement/contact-statement",
+    "title": "Contact | Tell Vika about your companies",
+    "layoutFamily": "statement"
+  },
+  {
+    "path": "/statement/home-statement",
+    "title": "Vika | Accounting and tax studio, Statement layout",
+    "layoutFamily": "statement"
+  },
+  {
+    "path": "/statement/studio-statement",
+    "title": "Studio | Vika values and growth, Statement",
+    "layoutFamily": "statement"
+  },
+  {
+    "path": "/studio",
+    "title": "Studio | Vika accounting, tax and audit",
+    "layoutFamily": "classic"
+  },
+  {
+    "path": "/style-guide",
+    "title": "Style Guide | Vika type, colour and buttons",
+    "layoutFamily": "shared"
+  },
+  {
+    "path": "/team",
+    "title": "Team | Vika accounting, tax and audit partners",
+    "layoutFamily": "shared"
+  }
+]

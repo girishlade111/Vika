@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { spawn, type ChildProcess } from 'node:child_process';
+import { preview } from 'vite';
 import { chromium, type Page } from 'playwright';
 import pixelmatch from 'pixelmatch';
 import { PNG } from 'pngjs';
@@ -51,33 +51,6 @@ const ALL_ROUTES = [
   ...QUESTIONS.map((q) => `/questions/${q.slug}`),
 ];
 
-function startPreviewServer(): ChildProcess {
-  const proc = spawn(
-    process.platform === 'win32' ? 'npx.cmd' : 'npx',
-    ['vite', 'preview', '--port', String(PORT), '--host', '127.0.0.1', '--strictPort'],
-    {
-      cwd: ROOT_DIR,
-      stdio: ['ignore', 'pipe', 'pipe'],
-      shell: process.platform === 'win32',
-    },
-  );
-  return proc;
-}
-
-async function waitForServer(url: string, timeoutMs = 15000): Promise<void> {
-  const start = Date.now();
-  while (Date.now() - start < timeoutMs) {
-    try {
-      const res = await fetch(url);
-      if (res.ok) return;
-    } catch {
-      // retry
-    }
-    await new Promise((r) => setTimeout(r, 300));
-  }
-  throw new Error(`Preview server did not respond within ${timeoutMs}ms`);
-}
-
 interface RouteCheckResult {
   route: string;
   title: string;
@@ -102,17 +75,16 @@ async function checkRoute(page: Page, route: string): Promise<RouteCheckResult> 
   page.on('console', onConsole);
   page.on('pageerror', onPageError);
 
-  await page.goto(`${BASE_URL}${route}`, { waitUntil: 'networkidle' });
+  await page.goto(`${BASE_URL}${route}`, { waitUntil: 'domcontentloaded', timeout: 10000 });
+  await page.waitForSelector('h1', { timeout: 5000 }).catch(() => {});
   await page.evaluate('document.fonts.ready');
-  await page.waitForTimeout(250);
+  await page.waitForTimeout(120);
 
-  // Scroll through once to trigger any lazy-loaded images
-  await page.evaluate(
-    'window.scrollTo(0, document.body.scrollHeight * 0.5);',
-  );
-  await page.waitForTimeout(150);
-  await page.evaluate('window.scrollTo(0, 0);');
-  await page.waitForTimeout(100);
+  // Trigger lazy images and reset scroll
+  await page.evaluate('window.scrollTo(0, document.body.scrollHeight * 0.5)');
+  await page.waitForTimeout(80);
+  await page.evaluate('window.scrollTo(0, 0)');
+  await page.waitForTimeout(80);
 
   const metrics = (await page.evaluate(`(() => {
     const imgs = Array.from(document.querySelectorAll('img'));
@@ -199,7 +171,15 @@ async function computeVisualComparison(
 }
 
 async function main() {
-  const server = startPreviewServer();
+  console.log('Starting Vite preview server...');
+  const previewServer = await preview({
+    preview: {
+      port: PORT,
+      host: '127.0.0.1',
+      strictPort: true,
+    },
+  });
+
   const report: Record<string, unknown> = {
     executedAt: new Date().toISOString(),
     routeCount: ALL_ROUTES.length,
@@ -217,23 +197,29 @@ async function main() {
   };
 
   try {
-    await waitForServer(BASE_URL);
+    console.log('Preview server listening, launching Chromium...');
     const browser = await chromium.launch({ headless: true });
+    console.log('Chromium launched.');
 
     try {
       const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+      context.setDefaultTimeout(10000);
       const page = await context.newPage();
 
-      // 1. Verify all 52 routes
+      // 1. Verify all 66 routes
+      console.log(`Checking all ${ALL_ROUTES.length} routes...`);
       const routeResults: RouteCheckResult[] = [];
-      for (const route of ALL_ROUTES) {
+      for (let i = 0; i < ALL_ROUTES.length; i++) {
+        const route = ALL_ROUTES[i];
+        console.log(`[${i + 1}/${ALL_ROUTES.length}] ${route}`);
         const res = await checkRoute(page, route);
         routeResults.push(res);
       }
       report.routes = routeResults;
+      console.log(`Routes complete: ${routeResults.filter((r) => r.status === 'PASS').length}/${routeResults.length} passed.`);
 
       // 2. Capture computed styles on Classic Home at 1440x900
-      await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle' });
+      await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
       await page.evaluate('document.fonts.ready');
       report.typographyComputed = await page.evaluate(`(() => {
         const body = window.getComputedStyle(document.body);
@@ -255,14 +241,15 @@ async function main() {
       })()`);
 
       // 3. Interactive tests
+      console.log('Running interactive tests...');
       const interactive: Record<string, boolean> = {};
 
-      // Test fullscreen Menu open & Escape close + Layout switcher
-      await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle' });
+      // Test fullscreen Menu open & Escape close
+      await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
       await page.click('.navbar_menu-button');
-      await page.waitForTimeout(350);
+      await page.waitForTimeout(300);
       const menuVisible = await page.evaluate(
-        `window.getComputedStyle(document.querySelector('.navbar_menu')).display !== 'none'`,
+        `document.querySelector('.navbar_menu')?.classList.contains('is-open') === true`,
       );
       interactive.menuOpens = Boolean(menuVisible);
       await page.keyboard.press('Escape');
@@ -273,39 +260,39 @@ async function main() {
       interactive.menuClosesOnEscape = Boolean(menuClosed);
 
       // Test Pricing AED -> GBP & Monthly -> Yearly
-      await page.goto(`${BASE_URL}/pricing`, { waitUntil: 'networkidle' });
-      const initialPriceText = await page.textContent('.pricing_amount');
+      await page.goto(`${BASE_URL}/pricing`, { waitUntil: 'load' });
+      const initialBody = await page.innerText('body');
       await page.click('button:has-text("GBP")');
       await page.waitForTimeout(100);
-      const gbpPriceText = await page.textContent('.pricing_amount');
+      const gbpBody = await page.innerText('body');
       await page.click('button:has-text("Yearly")');
       await page.waitForTimeout(100);
-      const gbpYearlyText = await page.textContent('.pricing_amount');
+      const gbpYearlyBody = await page.innerText('body');
       interactive.pricingCurrencyAndBillingSwitch =
-        Boolean(initialPriceText?.includes('AED')) &&
-        Boolean(gbpPriceText?.includes('£550')) &&
-        Boolean(gbpYearlyText?.includes('£5,500'));
+        initialBody.includes('AED 2,500') &&
+        gbpBody.includes('£550') &&
+        gbpYearlyBody.includes('£5,500');
 
       // Test Deadline UAE -> UK tab
-      await page.goto(`${BASE_URL}/services`, { waitUntil: 'networkidle' });
-      await page.click('button:has-text("UK calendar")');
+      await page.goto(`${BASE_URL}/services`, { waitUntil: 'load' });
+      await page.click('button:has-text("UK")');
       await page.waitForTimeout(100);
       const ukDeadlineVisible = await page.evaluate(
-        `document.body.innerText.includes('HM Revenue') || document.body.innerText.includes('CT600')`,
+        `document.body.innerText.includes('HMRC') || document.body.innerText.includes('CT600')`,
       );
       interactive.calendarJurisdictionToggle = Boolean(ukDeadlineVisible);
 
       // Test Quote Slider next button
-      await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle' });
-      const firstQuote = await page.textContent('.quote-slider_quote');
-      await page.click('button[aria-label="Next quote"]');
+      await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
+      const firstQuote = await page.textContent('.home-quotes_quote');
+      await page.click('button[aria-label="Next client quote"]');
       await page.waitForTimeout(100);
-      const secondQuote = await page.textContent('.quote-slider_quote');
+      const secondQuote = await page.textContent('.home-quotes_quote');
       interactive.quoteSliderNext = Boolean(firstQuote && secondQuote && firstQuote !== secondQuote);
 
       // Test Classic Contact validation & submission
-      await page.goto(`${BASE_URL}/contact`, { waitUntil: 'networkidle' });
-      await page.click('form.contact-form_form button[type="submit"]');
+      await page.goto(`${BASE_URL}/contact`, { waitUntil: 'load' });
+      await page.click('.contact_form-card button[type="submit"]');
       await page.waitForTimeout(100);
       const validationShown = await page.evaluate(
         `document.body.innerText.includes('Please enter your name')`,
@@ -313,56 +300,58 @@ async function main() {
       await page.fill('#contact-name', 'Alex Mercer');
       await page.fill('#contact-email', 'alex@example.com');
       await page.fill('#contact-company', 'Mercer Trading LLC');
-      await page.click('form.contact-form_form button[type="submit"]');
-      await page.waitForTimeout(150);
+      await page.click('.contact_form-card .form_checkbox.is-consent input[type="checkbox"]');
+      await page.click('.contact_form-card button[type="submit"]');
+      await page.waitForTimeout(500);
       const formSuccess = await page.evaluate(
         `document.body.innerText.includes('Message received')`,
       );
       interactive.classicContactValidationAndSubmit = Boolean(validationShown && formSuccess);
 
       // Test Statement Contact 5-step wizard
-      await page.goto(`${BASE_URL}/statement/contact-statement`, { waitUntil: 'networkidle' });
-      await page.click('.statement-wizard button:has-text("Accounting")');
-      await page.click('.statement-wizard button:has-text("Continue")');
-      await page.click('.statement-wizard button:has-text("UAE")');
-      await page.click('.statement-wizard button:has-text("Continue")');
-      await page.click('.statement-wizard button:has-text("Essential")');
-      await page.click('.statement-wizard button:has-text("Continue")');
-      await page.fill('.statement-wizard input[placeholder*="name"]', 'Jordan Reid');
-      await page.fill('.statement-wizard input[type="email"]', 'jordan@example.com');
-      await page.fill('.statement-wizard input[placeholder*="company"]', 'Reid Holdings');
-      await page.click('.statement-wizard button:has-text("Continue")');
-      await page.click('.statement-wizard button[type="submit"]');
-      await page.waitForTimeout(150);
+      await page.goto(`${BASE_URL}/statement/contact-statement`, { waitUntil: 'load' });
+      await page.fill('#q-name', 'Jordan Reid');
+      await page.click('.questionnaire_question:not(.is-pending) .questionnaire_next');
+      await page.fill('#q-email', 'jordan@example.com');
+      await page.click('.questionnaire_question:not(.is-pending) .questionnaire_next');
+      await page.click('.questionnaire_question:not(.is-pending) .questionnaire_next');
+      await page.click('.questionnaire_question:not(.is-pending) .questionnaire_next');
+      await page.click('.questionnaire_question:not(.is-pending) .questionnaire_next');
+      await page.click('.questionnaire_submit .form_checkbox.is-consent input[type="checkbox"]');
+      await page.click('.questionnaire_submit button[type="submit"]');
+      await page.waitForTimeout(500);
       const wizardDone = await page.evaluate(
-        `document.body.innerText.includes('Enquiry submitted') || document.body.innerText.includes('Thank you')`,
+        `document.body.innerText.includes('Message received')`,
       );
       interactive.statementWizardComplete = Boolean(wizardDone);
 
       // Test Booking Flow on Cinematic Contact
-      await page.goto(`${BASE_URL}/cinematic/contact-cinematic`, { waitUntil: 'networkidle' });
-      await page.click('.book-flow button:has-text("Rami Nassar")');
-      await page.fill('.book-flow input[type="email"]', 'sam@example.com');
-      await page.fill('.book-flow input[placeholder*="name"]', 'Samira Al Noor');
-      await page.click('.book-flow button[type="submit"]');
-      await page.waitForTimeout(150);
+      await page.goto(`${BASE_URL}/cinematic/contact-cinematic`, { waitUntil: 'load' });
+      await page.click('.booking_form button:has-text("Rami Nassar")');
+      await page.fill('#booking-name', 'Samira Al Noor');
+      await page.fill('#booking-email', 'sam@example.com');
+      await page.click('.booking_form .form_checkbox.is-consent input[type="checkbox"]');
+      await page.click('.booking_form button[type="submit"]');
+      await page.waitForTimeout(550);
       const bookingDone = await page.evaluate(
-        `document.body.innerText.includes('confirmed') || document.body.innerText.includes('Rami Nassar')`,
+        `document.body.innerText.includes('Rami Nassar') && (document.body.innerText.includes('Request received') || document.body.innerText.includes('Demonstration request recorded'))`,
       );
       interactive.bookingFlowConfirm = Boolean(bookingDone);
 
       // Test Explore Vika tour drawer toggle
-      await page.goto(`${BASE_URL}/`, { waitUntil: 'networkidle' });
+      await page.goto(`${BASE_URL}/`, { waitUntil: 'load' });
       await page.click('.tour_toggle');
-      await page.waitForTimeout(200);
+      await page.waitForTimeout(150);
       const tourOpen = await page.evaluate(
-        `document.querySelector('.tour_drawer')?.getAttribute('aria-hidden') === 'false'`,
+        `document.querySelector('.tour_list')?.classList.contains('is-open') === true`,
       );
       interactive.exploreVikaDrawer = Boolean(tourOpen);
 
       report.interactiveTests = interactive;
+      console.log('Interactive tests:', interactive);
 
       // 4. Responsive overflow audit across Desktop, Tablet, Mobile
+      console.log('Running responsive viewport overflow checks...');
       const viewports = [
         { width: 1920, height: 1080 },
         { width: 1440, height: 900 },
@@ -376,8 +365,8 @@ async function main() {
       for (const vp of viewports) {
         await page.setViewportSize(vp);
         for (const r of keyRoutes) {
-          await page.goto(`${BASE_URL}${r}`, { waitUntil: 'networkidle' });
-          await page.waitForTimeout(150);
+          await page.goto(`${BASE_URL}${r}`, { waitUntil: 'load' });
+          await page.waitForTimeout(120);
           const overflow = (await page.evaluate(
             `Math.max(0, document.documentElement.scrollWidth - window.innerWidth)`,
           )) as number;
@@ -387,6 +376,7 @@ async function main() {
       report.responsiveChecks = respResults;
 
       // 5. Screenshot captures + Visual Comparison against reference at 1440x900
+      console.log('Capturing screenshots & computing pixelmatch comparison...');
       await page.setViewportSize({ width: 1440, height: 900 });
       const comparePairs = [
         { route: '/', out: 'classic-home.png', ref: 'docs/reference/classic/home.png' },
@@ -400,7 +390,7 @@ async function main() {
       ];
       const visualResults = [];
       for (const pair of comparePairs) {
-        await page.goto(`${BASE_URL}${pair.route}`, { waitUntil: 'networkidle' });
+        await page.goto(`${BASE_URL}${pair.route}`, { waitUntil: 'load' });
         await page.evaluate('document.fonts.ready');
         await page.waitForTimeout(450);
         const localFile = path.join(OUT_SCREENSHOT_DIR, pair.out);
@@ -422,7 +412,9 @@ async function main() {
       await browser.close();
     }
   } finally {
-    server.kill();
+    await new Promise<void>((resolve) => {
+      previewServer.httpServer.close(() => resolve());
+    });
   }
 
   fs.writeFileSync(
@@ -439,7 +431,7 @@ async function main() {
   );
 
   console.log(`Checked ${ALL_ROUTES.length} routes: ${ALL_ROUTES.length - failedRoutes.length} passed, ${failedRoutes.length} failed.`);
-  if (failedRoutes.length > 0) console.log('FAILED ROUTES:', failedRoutes);
+  if (failedRoutes.length > 0) console.log('FAILED ROUTES:', JSON.stringify(failedRoutes, null, 2));
   console.log('Responsive checks:', (report.responsiveChecks as unknown[]).length, 'failures:', failedResponsive.length);
   if (failedResponsive.length > 0) console.log('RESPONSIVE FAILURES:', failedResponsive);
   console.log('Interactive tests:', report.interactiveTests);
