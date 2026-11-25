@@ -35,19 +35,22 @@ export function animateCounters(scope: HTMLElement | Document = document): () =>
         el.textContent = text.replace(raw, s);
       };
 
-      show(0);
-      gsap.to(obj, {
-        v: to,
-        duration: 0.85,
-        ease: 'power3.out',
-        onUpdate: () => show(obj.v),
-        onComplete: () => {
-          el.textContent = text;
-        },
-        scrollTrigger: {
-          trigger: el,
-          start: 'top 88%',
-          once: true,
+      // Keep actual text visible until element enters viewport, then animate 0 -> target
+      ScrollTrigger.create({
+        trigger: el,
+        start: 'top 90%',
+        once: true,
+        onEnter: () => {
+          show(0);
+          gsap.to(obj, {
+            v: to,
+            duration: 0.85,
+            ease: 'power3.out',
+            onUpdate: () => show(obj.v),
+            onComplete: () => {
+              el.textContent = text;
+            },
+          });
         },
       });
     });

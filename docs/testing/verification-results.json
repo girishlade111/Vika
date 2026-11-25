@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-11-25T11:25:28.420Z",
+  "executedAt": "2026-11-25T11:28:15.449Z",
   "routeCount": 66,
   "routes": [
     {
@@ -968,15 +968,15 @@
       "route": "/",
       "reference": "docs/reference/classic/home-1440-full.png",
       "local": "docs/testing/screenshots/classic-home.png",
-      "matchPercent": 98.09,
-      "diffPixels": 87836
+      "matchPercent": 98.32,
+      "diffPixels": 77197
     },
     {
       "route": "/studio",
       "reference": "docs/reference/classic/studio-1440-full.png",
       "local": "docs/testing/screenshots/classic-studio.png",
-      "matchPercent": 88.71,
-      "diffPixels": 520078
+      "matchPercent": 88.36,
+      "diffPixels": 536457
     },
     {
       "route": "/contact",
@@ -1010,15 +1010,15 @@
       "route": "/cinematic/home-cinematic",
       "reference": "docs/reference/cinematic/cinematic__home-cinematic-1440-full.png",
       "local": "docs/testing/screenshots/cinematic-home.png",
-      "matchPercent": 87.26,
-      "diffPixels": 586961
+      "matchPercent": 80.87,
+      "diffPixels": 881332
     },
     {
       "route": "/statement/home-statement",
       "reference": "docs/reference/statement/statement__home-statement-1440-full.png",
       "local": "docs/testing/screenshots/statement-home.png",
-      "matchPercent": 95.49,
-      "diffPixels": 207718
+      "matchPercent": 95.48,
+      "diffPixels": 208288
     }
   ]
 }

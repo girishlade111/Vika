@@ -404,7 +404,26 @@ async function main() {
       for (const pair of comparePairs) {
         await page.goto(`${BASE_URL}${pair.route}`, { waitUntil: 'load' });
         await page.evaluate('document.fonts.ready');
-        await page.waitForTimeout(450);
+        // Decode all lazy images & settle ScrollTrigger reveals cleanly before full-page capture
+        await page.evaluate(`(async () => {
+          const imgs = Array.from(document.querySelectorAll('img')).filter((img) => {
+            const st = window.getComputedStyle(img);
+            return st.display !== 'none' && st.visibility !== 'hidden' && !img.closest('.navbar_menu:not(.is-open)');
+          });
+          for (const img of imgs) {
+            if (!img.complete) {
+              img.loading = 'eager';
+              img.scrollIntoView({ behavior: 'instant', block: 'center' });
+              await new Promise((res) => {
+                const t = setTimeout(res, 2500);
+                img.addEventListener('load', () => { clearTimeout(t); res(); }, { once: true });
+                img.addEventListener('error', () => { clearTimeout(t); res(); }, { once: true });
+              });
+            }
+          }
+          window.scrollTo(0, 0);
+        })()`);
+        await page.waitForTimeout(350);
         const localFile = path.join(OUT_SCREENSHOT_DIR, pair.out);
         await page.screenshot({ path: localFile, fullPage: true });
         const refFile = path.join(ROOT_DIR, pair.ref);
