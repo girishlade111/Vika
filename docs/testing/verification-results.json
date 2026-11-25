@@ -1,5 +1,5 @@
 {
-  "executedAt": "2026-11-25T11:09:09.787Z",
+  "executedAt": "2026-11-25T11:19:45.499Z",
   "routeCount": 66,
   "routes": [
     {
@@ -8,7 +8,6 @@
       "consoleErrors": [],
       "pageErrors": [],
       "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg",
         "/assets/images/insights/6ad74ed70180ecbacfafd39a_hf_20261020_105653_0814399d-5b22-4e1a-8262-78717b01a012_min.webp",
         "/assets/images/case-studies/6ad7db8330eccb39432c6d7e_hf_20261020_211902_6733ff19-fbdf-4638-95ff-d59af44581eb_min.webp",
         "/assets/images/case-studies/6ad7db8330eccb39432c6db6_hf_20261020_211902_7ded3acf-edf4-4eb0-9ef1-775e38b2f518_min.webp",
@@ -28,251 +27,209 @@
       "title": "Studio | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/contact",
       "title": "Contact | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/cinematic/home-cinematic",
       "title": "Vika | Accounting and tax studio, Cinematic layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39a_hf_20261020_105653_0814399d-5b22-4e1a-8262-78717b01a012_min.webp",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39d_hf_20261020_105655_0524c85e-01bc-443b-b4b9-f24330481881_min.webp",
-        "/assets/images/insights/6ad74ed60180ecbacfafd389_hf_20261020_105655_893b4d04-ae7b-4341-87ad-9241f1b99c41_min.webp",
-        "/assets/images/insights/6ad74ed70180ecbacfafd39d_hf_20261020_105655_0524c85e-01bc-443b-b4b9-f24330481881_min.webp"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/cinematic/studio-cinematic",
       "title": "Studio | Vika accounting and tax, Cinematic layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/cinematic/contact-cinematic",
       "title": "Contact | Book thirty minutes with a partner, Cinematic layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/statement/home-statement",
       "title": "Vika | Accounting and tax studio, Statement layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/statement/studio-statement",
       "title": "Studio | Vika accounting and tax, Statement layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/statement/contact-statement",
       "title": "Contact | Five questions, Statement layout",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/services",
       "title": "Services | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/pricing",
       "title": "Pricing | Vika fixed fees for UAE and UK companies",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights",
       "title": "Insights | Notes on UAE and UK tax",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/team",
       "title": "Team | The people who sign your accounts | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/case-studies",
       "title": "Case studies | Results, on file | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/privacy-policy",
       "title": "Privacy Policy | How Vika handles your data",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/overview",
       "title": "Overview | Vika accounting, tax and audit website map",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/style-guide",
       "title": "Style guide | Vika design system tokens and components",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/instructions",
       "title": "Instructions | Template guide | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 5,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/licenses",
       "title": "Licenses | Fonts, media and sample copy | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 5,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/changelog",
       "title": "Changelog | Version history | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/401",
@@ -290,585 +247,495 @@
       "title": "Page not found | Vika accounting, tax and audit studio",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/services/accounting",
       "title": "Accounting | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 6,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/services/tax",
       "title": "Tax | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 6,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/services/audit",
       "title": "Audit | Vika accounting, tax and audit",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 6,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/first-uae-corporate-tax-return",
       "title": "First UAE corporate tax return: what to have ready | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/close-the-month-in-ten-days",
       "title": "How we close the month in ten working days | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/free-zone-audits-start-in-january",
       "title": "Free zone audits: start in January, not in March | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/uk-vat-for-gulf-companies",
       "title": "UK VAT for Gulf companies selling into Britain | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/ten-years-of-vika",
       "title": "Ten years of Vika, and what we would change | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/insights/management-accounts-your-board-reads",
       "title": "Management accounts your board will actually read | Vika Insights",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/sara-lindqvist",
       "title": "Sara Lindqvist, Managing Partner | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/rami-nassar",
       "title": "Rami Nassar, Tax Partner | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/hannah-okoye",
       "title": "Hannah Okoye, Audit Partner | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/leo-brandt",
       "title": "Leo Brandt, Head of Accounting | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/maya-iyer",
       "title": "Maya Iyer, Senior Manager, Tax | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/people/tomas-reyes",
       "title": "Tomas Reyes, Senior Manager, Audit | Vika",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/essential",
       "title": "Essential Plan | Vika fixed-fee pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/growth",
       "title": "Growth Plan | Vika fixed-fee pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/group",
       "title": "Group Plan | Vika fixed-fee pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/tax-registration",
       "title": "Tax registration | Vika project pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/statutory-audit",
       "title": "Statutory audit | Vika project pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/plans/due-diligence",
       "title": "Due diligence | Vika project pricing",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uae-vat-q3-2026",
       "title": "UAE VAT return for Q3 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uae-vat-q4-2026",
       "title": "UAE VAT return for Q4 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uae-vat-q1-2027",
       "title": "UAE VAT return for Q1 2027 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uae-corporate-tax-2026",
       "title": "UAE Corporate tax return for 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uk-vat-q3-2026",
       "title": "UK VAT return for Q3 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uk-companies-house-2026",
       "title": "UK Companies House annual accounts 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/deadlines/uk-ct600-2026",
       "title": "UK Company tax return (CT600) for 2026 | Vika tax calendar",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/case-studies/trading-group-monthly-close",
       "title": "A trading group that now closes by the ninth | Vika Case Studies",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/case-studies/software-group-first-corporate-tax-return",
       "title": "A software group's first UAE corporate tax return | Vika Case Studies",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/case-studies/free-zone-logistics-audit",
       "title": "A free zone audit signed in seven weeks | Vika Case Studies",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/case-studies/hospitality-group-dubai-london",
       "title": "One set of numbers for a group in two countries | Vika Case Studies",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/which-accounting-software",
       "title": "Which accounting software do you work in? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/take-over-halfway-through-year",
       "title": "Can you take over halfway through the year? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/audit-companies-whose-books-you-keep",
       "title": "Do you audit companies whose books you keep? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/who-will-i-actually-work-with",
       "title": "Who will I actually work with? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/how-fees-work",
       "title": "How do your fees work? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/work-outside-uae-and-uk",
       "title": "Do you work outside the UAE and the UK? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/are-fees-plus-vat",
       "title": "Are the fees plus VAT? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/are-prices-a-quote",
       "title": "Are the prices on this page a quote? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/what-happens-if-we-grow",
       "title": "What happens if we grow during the year? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/pay-for-the-year-up-front",
       "title": "Can we pay for the year up front? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/what-is-the-notice-period",
       "title": "What is the notice period? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "route": "/questions/why-is-audit-not-part-of-plan",
       "title": "Why is the audit not part of my plan? | Vika FAQ",
       "consoleErrors": [],
       "pageErrors": [],
-      "brokenImages": [
-        "/assets/brand/6ad8dacfc4794af93ead0f6c_vika-wordmark-light.svg"
-      ],
+      "brokenImages": [],
       "horizontalOverflowPx": 0,
       "h1Count": 1,
       "fontsLoaded": 4,
-      "status": "FAIL"
+      "status": "PASS"
     }
   ],
   "responsiveChecks": [
@@ -1087,11 +954,11 @@
     "menuOpens": true,
     "menuClosesOnEscape": true,
     "pricingCurrencyAndBillingSwitch": true,
-    "calendarJurisdictionToggle": false,
+    "calendarJurisdictionToggle": true,
     "quoteSliderNext": true,
-    "classicContactValidationAndSubmit": false,
-    "statementWizardComplete": false,
-    "bookingFlowConfirm": false,
+    "classicContactValidationAndSubmit": true,
+    "statementWizardComplete": true,
+    "bookingFlowConfirm": true,
     "exploreVikaDrawer": true
   },
   "typographyComputed": {
@@ -1105,5 +972,62 @@
     "labelFont": "\"DM Mono\", Verdana, sans-serif",
     "labelSize": "11.5px"
   },
-  "visualComparisons": []
+  "visualComparisons": [
+    {
+      "route": "/",
+      "reference": "docs/reference/classic/home-1440-full.png",
+      "local": "docs/testing/screenshots/classic-home.png",
+      "matchPercent": 98.09,
+      "diffPixels": 87995
+    },
+    {
+      "route": "/studio",
+      "reference": "docs/reference/classic/studio-1440-full.png",
+      "local": "docs/testing/screenshots/classic-studio.png",
+      "matchPercent": 88.71,
+      "diffPixels": 520078
+    },
+    {
+      "route": "/contact",
+      "reference": "docs/reference/classic/contact-1440-full.png",
+      "local": "docs/testing/screenshots/classic-contact.png",
+      "matchPercent": 95.18,
+      "diffPixels": 203785
+    },
+    {
+      "route": "/services",
+      "reference": "docs/reference/shared/services-1440-full.png",
+      "local": "docs/testing/screenshots/shared-services.png",
+      "matchPercent": 90.23,
+      "diffPixels": 450345
+    },
+    {
+      "route": "/pricing",
+      "reference": "docs/reference/shared/pricing-1440-full.png",
+      "local": "docs/testing/screenshots/shared-pricing.png",
+      "matchPercent": 96.06,
+      "diffPixels": 181552
+    },
+    {
+      "route": "/insights",
+      "reference": "docs/reference/shared/insights-1440-full.png",
+      "local": "docs/testing/screenshots/shared-insights.png",
+      "matchPercent": 79.92,
+      "diffPixels": 925365
+    },
+    {
+      "route": "/cinematic/home-cinematic",
+      "reference": "docs/reference/cinematic/cinematic__home-cinematic-1440-full.png",
+      "local": "docs/testing/screenshots/cinematic-home.png",
+      "matchPercent": 87.26,
+      "diffPixels": 587284
+    },
+    {
+      "route": "/statement/home-statement",
+      "reference": "docs/reference/statement/statement__home-statement-1440-full.png",
+      "local": "docs/testing/screenshots/statement-home.png",
+      "matchPercent": 95.49,
+      "diffPixels": 207718
+    }
+  ]
 }
